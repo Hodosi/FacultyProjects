@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "presentation.h"
 
 int main() {
-    printf("Hello, World!\n");
     return 0;
 }

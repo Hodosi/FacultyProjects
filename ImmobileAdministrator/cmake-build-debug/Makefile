@@ -142,6 +142,60 @@ ImmobileAdministrator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/build
 .PHONY : ImmobileAdministrator/fast
 
+business.obj: business.c.obj
+
+.PHONY : business.obj
+
+# target to build an object file
+business.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.obj
+.PHONY : business.c.obj
+
+business.i: business.c.i
+
+.PHONY : business.i
+
+# target to preprocess a source file
+business.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.i
+.PHONY : business.c.i
+
+business.s: business.c.s
+
+.PHONY : business.s
+
+# target to generate assembly for a file
+business.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.s
+.PHONY : business.c.s
+
+domain.obj: domain.c.obj
+
+.PHONY : domain.obj
+
+# target to build an object file
+domain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.obj
+.PHONY : domain.c.obj
+
+domain.i: domain.c.i
+
+.PHONY : domain.i
+
+# target to preprocess a source file
+domain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.i
+.PHONY : domain.c.i
+
+domain.s: domain.c.s
+
+.PHONY : domain.s
+
+# target to generate assembly for a file
+domain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.s
+.PHONY : domain.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -169,6 +223,114 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/main.c.s
 .PHONY : main.c.s
 
+persistence.obj: persistence.c.obj
+
+.PHONY : persistence.obj
+
+# target to build an object file
+persistence.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.obj
+.PHONY : persistence.c.obj
+
+persistence.i: persistence.c.i
+
+.PHONY : persistence.i
+
+# target to preprocess a source file
+persistence.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.i
+.PHONY : persistence.c.i
+
+persistence.s: persistence.c.s
+
+.PHONY : persistence.s
+
+# target to generate assembly for a file
+persistence.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.s
+.PHONY : persistence.c.s
+
+presentation.obj: presentation.c.obj
+
+.PHONY : presentation.obj
+
+# target to build an object file
+presentation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.obj
+.PHONY : presentation.c.obj
+
+presentation.i: presentation.c.i
+
+.PHONY : presentation.i
+
+# target to preprocess a source file
+presentation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.i
+.PHONY : presentation.c.i
+
+presentation.s: presentation.c.s
+
+.PHONY : presentation.s
+
+# target to generate assembly for a file
+presentation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.s
+.PHONY : presentation.c.s
+
+test.obj: test.c.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.s
+.PHONY : test.c.s
+
+validation.obj: validation.c.obj
+
+.PHONY : validation.obj
+
+# target to build an object file
+validation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.obj
+.PHONY : validation.c.obj
+
+validation.i: validation.c.i
+
+.PHONY : validation.i
+
+# target to preprocess a source file
+validation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.i
+.PHONY : validation.c.i
+
+validation.s: validation.c.s
+
+.PHONY : validation.s
+
+# target to generate assembly for a file
+validation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.s
+.PHONY : validation.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +340,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ImmobileAdministrator
+	@echo ... business.obj
+	@echo ... business.i
+	@echo ... business.s
+	@echo ... domain.obj
+	@echo ... domain.i
+	@echo ... domain.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... persistence.obj
+	@echo ... persistence.i
+	@echo ... persistence.s
+	@echo ... presentation.obj
+	@echo ... presentation.i
+	@echo ... presentation.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
+	@echo ... validation.obj
+	@echo ... validation.i
+	@echo ... validation.s
 .PHONY : help
 
 

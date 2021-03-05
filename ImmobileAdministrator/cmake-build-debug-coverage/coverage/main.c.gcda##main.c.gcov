@@ -1,0 +1,10 @@
+        -:    0:Source:D:/FacultyProjects/ImmobileAdministrator/main.c
+        -:    0:Graph:D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\main.c.gcno
+        -:    0:Data:D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\main.c.gcda
+        -:    0:Runs:1
+        -:    1:#include "presentation.h"
+        -:    2:
+        1:    3:int main() {
+        1:    4:    return 0;
+        1:    4-block  0
+        -:    5:}

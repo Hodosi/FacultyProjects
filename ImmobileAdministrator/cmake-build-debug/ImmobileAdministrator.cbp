@@ -76,7 +76,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/business.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/business.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/main.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/presentation.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/presentation.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/test.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/test.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/validation.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/validation.h">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/CMakeLists.txt">
