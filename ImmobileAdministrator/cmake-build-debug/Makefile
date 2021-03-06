@@ -142,6 +142,60 @@ ImmobileAdministrator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/build
 .PHONY : ImmobileAdministrator/fast
 
+apartment.obj: apartment.c.obj
+
+.PHONY : apartment.obj
+
+# target to build an object file
+apartment.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.obj
+.PHONY : apartment.c.obj
+
+apartment.i: apartment.c.i
+
+.PHONY : apartment.i
+
+# target to preprocess a source file
+apartment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.i
+.PHONY : apartment.c.i
+
+apartment.s: apartment.c.s
+
+.PHONY : apartment.s
+
+# target to generate assembly for a file
+apartment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.s
+.PHONY : apartment.c.s
+
+block.obj: block.c.obj
+
+.PHONY : block.obj
+
+# target to build an object file
+block.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.obj
+.PHONY : block.c.obj
+
+block.i: block.c.i
+
+.PHONY : block.i
+
+# target to preprocess a source file
+block.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.i
+.PHONY : block.c.i
+
+block.s: block.c.s
+
+.PHONY : block.s
+
+# target to generate assembly for a file
+block.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.s
+.PHONY : block.c.s
+
 business.obj: business.c.obj
 
 .PHONY : business.obj
@@ -195,6 +249,33 @@ domain.s: domain.c.s
 domain.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.s
 .PHONY : domain.c.s
+
+expense.obj: expense.c.obj
+
+.PHONY : expense.obj
+
+# target to build an object file
+expense.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.obj
+.PHONY : expense.c.obj
+
+expense.i: expense.c.i
+
+.PHONY : expense.i
+
+# target to preprocess a source file
+expense.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.i
+.PHONY : expense.c.i
+
+expense.s: expense.c.s
+
+.PHONY : expense.s
+
+# target to generate assembly for a file
+expense.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.s
+.PHONY : expense.c.s
 
 main.obj: main.c.obj
 
@@ -340,12 +421,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ImmobileAdministrator
+	@echo ... apartment.obj
+	@echo ... apartment.i
+	@echo ... apartment.s
+	@echo ... block.obj
+	@echo ... block.i
+	@echo ... block.s
 	@echo ... business.obj
 	@echo ... business.i
 	@echo ... business.s
 	@echo ... domain.obj
 	@echo ... domain.i
 	@echo ... domain.s
+	@echo ... expense.obj
+	@echo ... expense.i
+	@echo ... expense.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

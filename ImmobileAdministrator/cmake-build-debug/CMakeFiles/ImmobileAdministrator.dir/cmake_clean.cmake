@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ImmobileAdministrator.dir/apartment.c.obj"
+  "CMakeFiles/ImmobileAdministrator.dir/block.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/business.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/domain.c.obj"
+  "CMakeFiles/ImmobileAdministrator.dir/expense.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/persistence.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/presentation.c.obj"

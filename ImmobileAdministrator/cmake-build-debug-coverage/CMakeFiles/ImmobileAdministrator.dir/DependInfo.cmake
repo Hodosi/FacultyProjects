@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/FacultyProjects/ImmobileAdministrator/apartment.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/apartment.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/block.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/block.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/business.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/domain.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/expense.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/expense.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/main.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/persistence.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/presentation.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/presentation.c.obj"

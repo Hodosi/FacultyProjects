@@ -1,0 +1,97 @@
+        -:    0:Source:D:/FacultyProjects/ImmobileAdministrator/presentation.c
+        -:    0:Graph:D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\presentation.c.gcno
+        -:    0:Data:D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug-coverage\CMakeFiles\ImmobileAdministrator.dir\presentation.c.gcda
+        -:    0:Runs:1
+        -:    0:Source is newer than graph
+        -:    1://
+        -:    2:// Created by Hodosi on 3/5/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "presentation.h"
+        -:    6:
+        -:    7:#include "business.h"
+        -:    8:
+        -:    9:#include <stdio.h>
+        -:   10:#include <string.h>
+        -:   11:#include <stdbool.h>
+        -:   12:
+        1:   13:void generateApartmentsUI(){
+        -:   14:    int number_of_apartments;
+        1:   15:    scanf("%d", &number_of_apartments);
+        1:   16:    printf("%d", number_of_apartments);
+        -:   17:}
+        1:   18:
+        1:   19:void addExpensesUI(){
+        -:   20:
+        1:   21:}
+        1:   22:void modifyExpenseUI(){
+        -:   23:
+        1:   24:}
+        1:   25:void deleteExpenseUI(){
+        -:   26:
+        1:   27:}
+        -:   28:void viewExpensesByPropertyUI(){
+       10:   29:
+       10:   30:}
+       10:   30-block  0
+       10:   31:void viewExpensesOrderedUI(){
+       10:   32:
+       10:   33:}
+       10:   34:
+       10:   35:void showMenu(){
+       10:   36:    printf("0. Generate apartments\n");
+       10:   37:    printf("1. Add expenses for an apartment\n");
+        -:   38:    printf("2. Modification of an existing expense (type, amount)\n");
+       10:   39:    printf("3. Delete the expense\n");
+        -:   40:    printf("4. View the list of expenses filtered by a property (amount, type, apartment)\n");
+        -:   41:    printf("5. View the list of expenses ordered by amount or type (ascending / descending)\n");
+        -:   42:    printf("exit\n");
+       10:   43:    printf("\n");
+       10:   43-block  0
+       10:   44:}
+        9:   45:
+    #####:   46:void userInterface(){
+    %%%%%:   46-block  0
+    #####:   47:    char command[10];
+        -:   48:
+        9:   49:    while (true){
+        9:   49-block  0
+        1:   50:        showMenu();
+        1:   50-block  0
+        -:   51:        scanf("%s", &command);
+        8:   52:        if(strcmp(command, "exit") == 0){
+        8:   52-block  0
+        1:   53:            printf("Good Bye!\n");
+        1:   53-block  0
+        -:   54:            return;
+        7:   55:        }
+        7:   55-block  0
+        1:   56:        else if(strcmp(command, "0") == 0){
+        1:   56-block  0
+        -:   57:            generateApartmentsUI();
+        6:   58:        }
+        6:   58-block  0
+        1:   59:        else if(strcmp(command, "1") == 0){
+        1:   59-block  0
+        -:   60:            addExpensesUI();
+        5:   61:        }
+        5:   61-block  0
+        1:   62:        else if(strcmp(command, "2") == 0){
+        1:   62-block  0
+        -:   63:            modifyExpenseUI();
+        -:   64:        }
+        4:   65:        else if(strcmp(command, "3") == 0){
+        4:   65-block  0
+        -:   66:            deleteExpenseUI();
+        -:   67:        }
+        -:   68:        else if(strcmp(command, "4") == 0){
+        -:   69:            viewExpensesByPropertyUI();
+        -:   70:        }
+        -:   71:        else if(strcmp(command, "5") == 0){
+        -:   72:            viewExpensesOrderedUI();
+        -:   73:        }
+        -:   74:        else{
+        -:   75:            printf("Invalid command!\n");
+        -:   76:        }
+        -:   77:    }
+        -:   78:}

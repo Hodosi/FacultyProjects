@@ -6,19 +6,41 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/ImmobileAdministrator/business.h
-
-D:/FacultyProjects/ImmobileAdministrator/presentation.c
-presentation.h
-D:/FacultyProjects/ImmobileAdministrator/presentation.h
+D:/FacultyProjects/ImmobileAdministrator/business.c
 business.h
 D:/FacultyProjects/ImmobileAdministrator/business.h
-stdio.h
--
-string.h
--
-stdbool.h
--
+persistence.h
+D:/FacultyProjects/ImmobileAdministrator/persistence.h
+validation.h
+D:/FacultyProjects/ImmobileAdministrator/validation.h
+domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain.h
 
-D:/FacultyProjects/ImmobileAdministrator/presentation.h
+D:/FacultyProjects/ImmobileAdministrator/business.h
+domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain.h
+
+D:/FacultyProjects/ImmobileAdministrator/domain.h
+
+D:/FacultyProjects/ImmobileAdministrator/persistence.c
+persistence.h
+D:/FacultyProjects/ImmobileAdministrator/persistence.h
+
+D:/FacultyProjects/ImmobileAdministrator/persistence.h
+domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain.h
+
+D:/FacultyProjects/ImmobileAdministrator/test.c
+test.h
+D:/FacultyProjects/ImmobileAdministrator/test.h
+business.h
+D:/FacultyProjects/ImmobileAdministrator/business.h
+persistence.h
+D:/FacultyProjects/ImmobileAdministrator/persistence.h
+domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain.h
+
+D:/FacultyProjects/ImmobileAdministrator/test.h
+
+D:/FacultyProjects/ImmobileAdministrator/validation.h
 

@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/apartment.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/block.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/business.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
@@ -86,6 +92,9 @@
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/expense.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/main.c">
