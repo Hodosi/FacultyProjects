@@ -85,9 +85,6 @@
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
-		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/block.c">
-			<Option target="ImmobileAdministrator"/>
-		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/expense.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
@@ -98,6 +95,12 @@
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/main.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c">

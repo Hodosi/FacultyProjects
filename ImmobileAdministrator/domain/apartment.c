@@ -3,26 +3,39 @@
 //
 
 #include "valueObject.h"
+#include <stdlib.h>
 
-Block createApartment(Block block, int number_of_apartment){
-    Apartment new_apartment;
+Apartment* createApartment(int number_of_apartment){
+    Apartment* apartment = (Apartment*)malloc(sizeof(Apartment));
 
-    new_apartment.number = number_of_apartment;
-    new_apartment.number_of_expenses = 4;
-    block.apartments[number_of_apartment] = new_apartment;
+    apartment -> number_of_apartment = number_of_apartment;
+    apartment -> number_of_expenses = 4;
+    apartment -> expenses = (Expense*)malloc(sizeof(Expense) * 4);
 
-    return block;
+    return apartment;
 }
 
+void destroyApartment(Apartment* apartment){
+    free(apartment -> expenses);
+    free(apartment);
+}
+
+int getApartmentNumber(Apartment *apartment){
+    return apartment -> number_of_apartment;
+}
+
+
+
+/*
 Apartment getApartment(Block block, int number_of_apartment){
-    return block.apartments[number_of_apartment];
+
 }
 
 int getNumberOfApartments(Block block){
-    return block.number_of_apartments;
+
 }
 
 Block setNumberOfApartments(Block block, int number_of_apartments){
-    block.number_of_apartments = number_of_apartments;
-    return block;
+
 }
+ */

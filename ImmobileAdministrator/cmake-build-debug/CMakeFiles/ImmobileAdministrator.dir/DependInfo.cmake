@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/FacultyProjects/ImmobileAdministrator/apartment.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/apartment.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/block.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/block.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/business.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/business.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/domain.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/domain.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/expense.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/expense.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/business/service.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/domain/expense.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/main.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/persistence.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/persistence.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/presentation.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/presentation.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/test.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/test.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/validation.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/validation.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/test/test.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj"
+  "D:/FacultyProjects/ImmobileAdministrator/validation/validator.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

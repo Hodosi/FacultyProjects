@@ -8,8 +8,9 @@
 #include "../validation/validator.h"
 #include "../domain/valueObject.h"
 
-
+/*
 Block generateApartments(number_of_block, number_of_apartments){
+    /*
     Block block = createBlock(number_of_block);
 
     block = setNumberOfApartments(block, number_of_apartments);
@@ -27,7 +28,7 @@ Block generateApartments(number_of_block, number_of_apartments){
 
     }
 
-
-
     return block;
+
 }
+*/

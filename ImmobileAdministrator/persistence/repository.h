@@ -6,5 +6,10 @@
 #define IMMOBILEADMINISTRATOR_REPOSITORY_H
 
 #include "../domain/valueObject.h"
+#include "dynamicVector.h"
+
+typedef struct {
+    DynamicVector* dynamic_vector;
+}RepositoryImmobile;
 
 #endif //IMMOBILEADMINISTRATOR_REPOSITORY_H

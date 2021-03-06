@@ -12,19 +12,10 @@
 #include <stdbool.h>
 
 
-Block generateApartmentsUI(){
-    int number_of_block, number_of_apartments;
-    printf("Block number:\n");
-    scanf("%d", &number_of_block);
-    printf("Number of apartments:\n");
-    scanf("%d", &number_of_apartments);
-    printf("\n");
-    Block block = generateApartments(number_of_block, number_of_apartments);
-    return block;
-}
-
+/*
 void showBlock(Block block){
 
+    /*
     int number_of_apartments = getNumberOfApartments(block);
     for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
         printf("%d ", number_of_apartment);
@@ -46,7 +37,9 @@ void showBlock(Block block){
         printf("\n");
     }
     printf("\n");
+
 }
+*/
 
 void addExpensesUI(){
 
@@ -77,11 +70,11 @@ void showMenu(){
 
 void userInterface(){
     char command[10];
-    Block block;
-    block = generateApartmentsUI();
+    //Block block;
+    //block = generateApartmentsUI();
 
     while (true){
-        showBlock(block);
+        //showBlock(block);
         showMenu();
         scanf("%s", &command);
         if(strcmp(command, "exit") == 0){
@@ -89,7 +82,7 @@ void userInterface(){
             return;
         }
         else if(strcmp(command, "0") == 0){
-            block = generateApartmentsUI();
+            //block = generateApartmentsUI();
         }
         else if(strcmp(command, "1") == 0){
             addExpensesUI();

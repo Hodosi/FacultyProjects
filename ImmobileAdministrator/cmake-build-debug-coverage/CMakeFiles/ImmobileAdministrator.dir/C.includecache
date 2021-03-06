@@ -23,21 +23,15 @@ D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c
 valueObject.h
 D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-
-D:/FacultyProjects/ImmobileAdministrator/domain/block.c
-valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+stdlib.h
+-
 
 D:/FacultyProjects/ImmobileAdministrator/domain/expense.c
 valueObject.h
 D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 string.h
 -
-
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c
-domain.h
-D:/FacultyProjects/ImmobileAdministrator/domain/domain.h
-string.h
+stdlib.h
 -
 
 D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
@@ -75,12 +69,14 @@ D:/FacultyProjects/ImmobileAdministrator/business/service.h
 D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 ../domain/valueObject.h
 D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+stdio.h
+-
+assert.h
+-
+string.h
+-
 
 D:/FacultyProjects/ImmobileAdministrator/test/test.h
-
-D:/FacultyProjects/ImmobileAdministrator/validation/validator.c
-validator.h
-D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 
 D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 

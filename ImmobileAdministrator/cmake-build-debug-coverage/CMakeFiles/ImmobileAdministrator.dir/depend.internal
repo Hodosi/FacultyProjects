@@ -10,9 +10,6 @@ CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj
  D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-CMakeFiles/ImmobileAdministrator.dir/domain/block.c.obj
- D:/FacultyProjects/ImmobileAdministrator/domain/block.c
- D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj
  D:/FacultyProjects/ImmobileAdministrator/domain/expense.c
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
@@ -21,6 +18,7 @@ CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj
  D:/FacultyProjects/ImmobileAdministrator/main.c
  D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
+ D:/FacultyProjects/ImmobileAdministrator/test/test.h
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
  D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c

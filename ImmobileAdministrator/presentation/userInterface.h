@@ -5,6 +5,10 @@
 #ifndef IMMOBILEADMINISTRATOR_USERINTERFACE_H
 #define IMMOBILEADMINISTRATOR_USERINTERFACE_H
 
-void userInterface();
+#include "../business/service.h"
+
+typedef struct {
+    ServiceImmobile *service_immobile;
+}userInterfaceImmobile;
 
 #endif //IMMOBILEADMINISTRATOR_USERINTERFACE_H

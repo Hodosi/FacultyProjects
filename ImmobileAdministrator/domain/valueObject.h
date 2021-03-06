@@ -8,57 +8,38 @@
 
 typedef struct {
     int number_of_apartment;
-    float cost;
-    char type[10];    // (water, sewer, heating, gas)
+    double cost;
+    char *type;    // (water, sewer, heating, gas)
 
 } Expense;
 
 
 typedef struct{
-    int number;
+    int number_of_apartment;
 
     int number_of_expenses;
-    Expense expenses[4];
+    Expense *expenses;
 
 } Apartment;
 
+//expenses
+Expense* createExpense(int number_of_apartment, double cost, char* type);
 
-typedef struct {
-    int number;
+void destroyExpense(Expense* expense);
 
-    int number_of_apartments;
-    Apartment apartments[100];
+Expense* copyExpense(Expense* expense);
 
-} Block;
+int getApartmentNumberOfExpense(Expense* expense);
 
-//Block
-Block createBlock(int number_of_block);
+double getCost(Expense* expense);
 
-//Apartment
-Block createApartment(Block block, int number_of_apartment);
+void getType(Expense* expense, char* type);
 
-Apartment getApartment(Block block, int number_of_apartment);
+//apartments
+Apartment* createApartment(int number_of_apartment);
 
-int getNumberOfApartments(Block block);
+void destroyApartment(Apartment* apartment);
 
-Block setNumberOfApartments(Block block, int number_of_apartments);
-
-//Expense
-Block setWaterExpense(Block block, int number_of_apartment, float cost);
-
-Block setSewerExpense(Block block, int number_of_apartment, float cost);
-
-Block setHeatingExpense(Block block, int number_of_apartment, float cost);
-
-Block setGasExpense(Block block, int number_of_apartment, float cost);
-
-Expense getExpense(Apartment apartment, int number_of_expense);
-
-int getNumberOfExpenses(Apartment apartment);
-
-float getCost(Expense expense);
-
-void getType(Expense expense, char type[]);
-
+int getApartmentNumber(Apartment *apartment);
 
 #endif //IMMOBILEADMINISTRATOR_VALUEOBJECT_H

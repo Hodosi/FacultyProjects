@@ -7,6 +7,10 @@
 
 #include "../domain/valueObject.h"
 
-Block generateApartments(int number_of_block, int number_of_apartments);
+#include "../persistence/repository.h"
+
+typedef struct{
+    RepositoryImmobile* repository_immobile;
+}ServiceImmobile;
 
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H
