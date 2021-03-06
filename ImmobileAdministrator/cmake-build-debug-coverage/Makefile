@@ -142,140 +142,140 @@ ImmobileAdministrator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/build
 .PHONY : ImmobileAdministrator/fast
 
-apartment.obj: apartment.c.obj
+business/service.obj: business/service.c.obj
 
-.PHONY : apartment.obj
-
-# target to build an object file
-apartment.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.obj
-.PHONY : apartment.c.obj
-
-apartment.i: apartment.c.i
-
-.PHONY : apartment.i
-
-# target to preprocess a source file
-apartment.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.i
-.PHONY : apartment.c.i
-
-apartment.s: apartment.c.s
-
-.PHONY : apartment.s
-
-# target to generate assembly for a file
-apartment.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/apartment.c.s
-.PHONY : apartment.c.s
-
-block.obj: block.c.obj
-
-.PHONY : block.obj
+.PHONY : business/service.obj
 
 # target to build an object file
-block.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.obj
-.PHONY : block.c.obj
+business/service.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj
+.PHONY : business/service.c.obj
 
-block.i: block.c.i
+business/service.i: business/service.c.i
 
-.PHONY : block.i
+.PHONY : business/service.i
 
 # target to preprocess a source file
-block.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.i
-.PHONY : block.c.i
+business/service.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business/service.c.i
+.PHONY : business/service.c.i
 
-block.s: block.c.s
+business/service.s: business/service.c.s
 
-.PHONY : block.s
+.PHONY : business/service.s
 
 # target to generate assembly for a file
-block.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/block.c.s
-.PHONY : block.c.s
+business/service.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business/service.c.s
+.PHONY : business/service.c.s
 
-business.obj: business.c.obj
+domain/apartment.obj: domain/apartment.c.obj
 
-.PHONY : business.obj
+.PHONY : domain/apartment.obj
 
 # target to build an object file
-business.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.obj
-.PHONY : business.c.obj
+domain/apartment.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj
+.PHONY : domain/apartment.c.obj
 
-business.i: business.c.i
+domain/apartment.i: domain/apartment.c.i
 
-.PHONY : business.i
+.PHONY : domain/apartment.i
 
 # target to preprocess a source file
-business.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.i
-.PHONY : business.c.i
+domain/apartment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.i
+.PHONY : domain/apartment.c.i
 
-business.s: business.c.s
+domain/apartment.s: domain/apartment.c.s
 
-.PHONY : business.s
+.PHONY : domain/apartment.s
 
 # target to generate assembly for a file
-business.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/business.c.s
-.PHONY : business.c.s
+domain/apartment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.s
+.PHONY : domain/apartment.c.s
 
-domain.obj: domain.c.obj
+domain/block.obj: domain/block.c.obj
 
-.PHONY : domain.obj
+.PHONY : domain/block.obj
 
 # target to build an object file
-domain.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.obj
-.PHONY : domain.c.obj
+domain/block.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/block.c.obj
+.PHONY : domain/block.c.obj
 
-domain.i: domain.c.i
+domain/block.i: domain/block.c.i
 
-.PHONY : domain.i
+.PHONY : domain/block.i
 
 # target to preprocess a source file
-domain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.i
-.PHONY : domain.c.i
+domain/block.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/block.c.i
+.PHONY : domain/block.c.i
 
-domain.s: domain.c.s
+domain/block.s: domain/block.c.s
 
-.PHONY : domain.s
+.PHONY : domain/block.s
 
 # target to generate assembly for a file
-domain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain.c.s
-.PHONY : domain.c.s
+domain/block.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/block.c.s
+.PHONY : domain/block.c.s
 
-expense.obj: expense.c.obj
+domain/expense.obj: domain/expense.c.obj
 
-.PHONY : expense.obj
+.PHONY : domain/expense.obj
 
 # target to build an object file
-expense.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.obj
-.PHONY : expense.c.obj
+domain/expense.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj
+.PHONY : domain/expense.c.obj
 
-expense.i: expense.c.i
+domain/expense.i: domain/expense.c.i
 
-.PHONY : expense.i
+.PHONY : domain/expense.i
 
 # target to preprocess a source file
-expense.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.i
-.PHONY : expense.c.i
+domain/expense.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.i
+.PHONY : domain/expense.c.i
 
-expense.s: expense.c.s
+domain/expense.s: domain/expense.c.s
 
-.PHONY : expense.s
+.PHONY : domain/expense.s
 
 # target to generate assembly for a file
-expense.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/expense.c.s
-.PHONY : expense.c.s
+domain/expense.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.s
+.PHONY : domain/expense.c.s
+
+domain/valueObject.obj: domain/valueObject.c.obj
+
+.PHONY : domain/valueObject.obj
+
+# target to build an object file
+domain/valueObject.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj
+.PHONY : domain/valueObject.c.obj
+
+domain/valueObject.i: domain/valueObject.c.i
+
+.PHONY : domain/valueObject.i
+
+# target to preprocess a source file
+domain/valueObject.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.i
+.PHONY : domain/valueObject.c.i
+
+domain/valueObject.s: domain/valueObject.c.s
+
+.PHONY : domain/valueObject.s
+
+# target to generate assembly for a file
+domain/valueObject.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.s
+.PHONY : domain/valueObject.c.s
 
 main.obj: main.c.obj
 
@@ -304,113 +304,113 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/main.c.s
 .PHONY : main.c.s
 
-persistence.obj: persistence.c.obj
+persistence/repository.obj: persistence/repository.c.obj
 
-.PHONY : persistence.obj
-
-# target to build an object file
-persistence.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.obj
-.PHONY : persistence.c.obj
-
-persistence.i: persistence.c.i
-
-.PHONY : persistence.i
-
-# target to preprocess a source file
-persistence.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.i
-.PHONY : persistence.c.i
-
-persistence.s: persistence.c.s
-
-.PHONY : persistence.s
-
-# target to generate assembly for a file
-persistence.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence.c.s
-.PHONY : persistence.c.s
-
-presentation.obj: presentation.c.obj
-
-.PHONY : presentation.obj
+.PHONY : persistence/repository.obj
 
 # target to build an object file
-presentation.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.obj
-.PHONY : presentation.c.obj
+persistence/repository.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj
+.PHONY : persistence/repository.c.obj
 
-presentation.i: presentation.c.i
+persistence/repository.i: persistence/repository.c.i
 
-.PHONY : presentation.i
+.PHONY : persistence/repository.i
 
 # target to preprocess a source file
-presentation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.i
-.PHONY : presentation.c.i
+persistence/repository.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.i
+.PHONY : persistence/repository.c.i
 
-presentation.s: presentation.c.s
+persistence/repository.s: persistence/repository.c.s
 
-.PHONY : presentation.s
+.PHONY : persistence/repository.s
 
 # target to generate assembly for a file
-presentation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation.c.s
-.PHONY : presentation.c.s
+persistence/repository.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.s
+.PHONY : persistence/repository.c.s
 
-test.obj: test.c.obj
+presentation/userInterface.obj: presentation/userInterface.c.obj
 
-.PHONY : test.obj
+.PHONY : presentation/userInterface.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.obj
-.PHONY : test.c.obj
+presentation/userInterface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj
+.PHONY : presentation/userInterface.c.obj
 
-test.i: test.c.i
+presentation/userInterface.i: presentation/userInterface.c.i
 
-.PHONY : test.i
+.PHONY : presentation/userInterface.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.i
-.PHONY : test.c.i
+presentation/userInterface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.i
+.PHONY : presentation/userInterface.c.i
 
-test.s: test.c.s
+presentation/userInterface.s: presentation/userInterface.c.s
 
-.PHONY : test.s
+.PHONY : presentation/userInterface.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test.c.s
-.PHONY : test.c.s
+presentation/userInterface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.s
+.PHONY : presentation/userInterface.c.s
 
-validation.obj: validation.c.obj
+test/test.obj: test/test.c.obj
 
-.PHONY : validation.obj
+.PHONY : test/test.obj
 
 # target to build an object file
-validation.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.obj
-.PHONY : validation.c.obj
+test/test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj
+.PHONY : test/test.c.obj
 
-validation.i: validation.c.i
+test/test.i: test/test.c.i
 
-.PHONY : validation.i
+.PHONY : test/test.i
 
 # target to preprocess a source file
-validation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.i
-.PHONY : validation.c.i
+test/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test/test.c.i
+.PHONY : test/test.c.i
 
-validation.s: validation.c.s
+test/test.s: test/test.c.s
 
-.PHONY : validation.s
+.PHONY : test/test.s
 
 # target to generate assembly for a file
-validation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation.c.s
-.PHONY : validation.c.s
+test/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/test/test.c.s
+.PHONY : test/test.c.s
+
+validation/validator.obj: validation/validator.c.obj
+
+.PHONY : validation/validator.obj
+
+# target to build an object file
+validation/validator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj
+.PHONY : validation/validator.c.obj
+
+validation/validator.i: validation/validator.c.i
+
+.PHONY : validation/validator.i
+
+# target to preprocess a source file
+validation/validator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.i
+.PHONY : validation/validator.c.i
+
+validation/validator.s: validation/validator.c.s
+
+.PHONY : validation/validator.s
+
+# target to generate assembly for a file
+validation/validator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.s
+.PHONY : validation/validator.c.s
 
 # Help Target
 help:
@@ -421,36 +421,36 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ImmobileAdministrator
-	@echo ... apartment.obj
-	@echo ... apartment.i
-	@echo ... apartment.s
-	@echo ... block.obj
-	@echo ... block.i
-	@echo ... block.s
-	@echo ... business.obj
-	@echo ... business.i
-	@echo ... business.s
-	@echo ... domain.obj
-	@echo ... domain.i
-	@echo ... domain.s
-	@echo ... expense.obj
-	@echo ... expense.i
-	@echo ... expense.s
+	@echo ... business/service.obj
+	@echo ... business/service.i
+	@echo ... business/service.s
+	@echo ... domain/apartment.obj
+	@echo ... domain/apartment.i
+	@echo ... domain/apartment.s
+	@echo ... domain/block.obj
+	@echo ... domain/block.i
+	@echo ... domain/block.s
+	@echo ... domain/expense.obj
+	@echo ... domain/expense.i
+	@echo ... domain/expense.s
+	@echo ... domain/valueObject.obj
+	@echo ... domain/valueObject.i
+	@echo ... domain/valueObject.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... persistence.obj
-	@echo ... persistence.i
-	@echo ... persistence.s
-	@echo ... presentation.obj
-	@echo ... presentation.i
-	@echo ... presentation.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
-	@echo ... validation.obj
-	@echo ... validation.i
-	@echo ... validation.s
+	@echo ... persistence/repository.obj
+	@echo ... persistence/repository.i
+	@echo ... persistence/repository.s
+	@echo ... presentation/userInterface.obj
+	@echo ... presentation/userInterface.i
+	@echo ... presentation/userInterface.s
+	@echo ... test/test.obj
+	@echo ... test/test.i
+	@echo ... test/test.s
+	@echo ... validation/validator.obj
+	@echo ... validation/validator.i
+	@echo ... validation/validator.s
 .PHONY : help
 
 

@@ -6,41 +6,81 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/ImmobileAdministrator/business.c
-business.h
-D:/FacultyProjects/ImmobileAdministrator/business.h
-persistence.h
-D:/FacultyProjects/ImmobileAdministrator/persistence.h
-validation.h
-D:/FacultyProjects/ImmobileAdministrator/validation.h
+D:/FacultyProjects/ImmobileAdministrator/business/service.c
+service.h
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../persistence/repository.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+../validation/validator.h
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+
+D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c
+valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+
+D:/FacultyProjects/ImmobileAdministrator/domain/block.c
+valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+
+D:/FacultyProjects/ImmobileAdministrator/domain/expense.c
+valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+string.h
+-
+
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c
 domain.h
-D:/FacultyProjects/ImmobileAdministrator/domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain/domain.h
+string.h
+-
 
-D:/FacultyProjects/ImmobileAdministrator/business.h
-domain.h
-D:/FacultyProjects/ImmobileAdministrator/domain.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
-D:/FacultyProjects/ImmobileAdministrator/domain.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c
+repository.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 
-D:/FacultyProjects/ImmobileAdministrator/persistence.c
-persistence.h
-D:/FacultyProjects/ImmobileAdministrator/persistence.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
-D:/FacultyProjects/ImmobileAdministrator/persistence.h
-domain.h
-D:/FacultyProjects/ImmobileAdministrator/domain.h
+D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.c
+userInterface.h
+D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
+../business/service.h
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
 
-D:/FacultyProjects/ImmobileAdministrator/test.c
+D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
+
+D:/FacultyProjects/ImmobileAdministrator/test/test.c
 test.h
-D:/FacultyProjects/ImmobileAdministrator/test.h
-business.h
-D:/FacultyProjects/ImmobileAdministrator/business.h
-persistence.h
-D:/FacultyProjects/ImmobileAdministrator/persistence.h
-domain.h
-D:/FacultyProjects/ImmobileAdministrator/domain.h
+D:/FacultyProjects/ImmobileAdministrator/test/test.h
+../business/service.h
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../persistence/repository.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
-D:/FacultyProjects/ImmobileAdministrator/test.h
+D:/FacultyProjects/ImmobileAdministrator/test/test.h
 
-D:/FacultyProjects/ImmobileAdministrator/validation.h
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.c
+validator.h
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
+
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 

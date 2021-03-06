@@ -3,4 +3,4 @@ project(ImmobileAdministrator C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ImmobileAdministrator main.c presentation.h business.h presentation.c business.c persistence.c persistence.h domain.c domain.h validation.c validation.h test.c test.h expense.c block.c apartment.c)
+add_executable(ImmobileAdministrator main.c presentation/userInterface.h business/service.h presentation/userInterface.c business/service.c persistence/repository.c persistence/repository.h domain/valueObject.c domain/valueObject.h validation/validator.c validation/validator.h test/test.c test/test.h domain/expense.c domain/block.c domain/apartment.c)
