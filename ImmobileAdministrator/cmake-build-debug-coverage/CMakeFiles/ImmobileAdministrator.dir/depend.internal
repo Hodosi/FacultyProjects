@@ -5,6 +5,7 @@ CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj
  D:/FacultyProjects/ImmobileAdministrator/business/service.c
  D:/FacultyProjects/ImmobileAdministrator/business/service.h
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
  D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
  D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj
@@ -13,24 +14,33 @@ CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj
  D:/FacultyProjects/ImmobileAdministrator/domain/expense.c
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj
- D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj
+ D:/FacultyProjects/ImmobileAdministrator/business/service.h
+ D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
  D:/FacultyProjects/ImmobileAdministrator/main.c
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
  D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
  D:/FacultyProjects/ImmobileAdministrator/test/test.h
+CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
  D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c
  D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj
  D:/FacultyProjects/ImmobileAdministrator/business/service.h
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
  D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.c
  D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj
  D:/FacultyProjects/ImmobileAdministrator/business/service.h
  D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
  D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
  D:/FacultyProjects/ImmobileAdministrator/test/test.c
  D:/FacultyProjects/ImmobileAdministrator/test/test.h

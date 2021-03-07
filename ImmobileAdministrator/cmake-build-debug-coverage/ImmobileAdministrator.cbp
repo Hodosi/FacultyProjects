@@ -88,9 +88,6 @@
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/expense.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
-		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c">
-			<Option target="ImmobileAdministrator"/>
-		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>

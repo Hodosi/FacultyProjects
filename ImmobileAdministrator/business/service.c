@@ -3,32 +3,34 @@
 //
 
 #include "service.h"
+#include <stdlib.h>
 
 #include "../persistence/repository.h"
 #include "../validation/validator.h"
 #include "../domain/valueObject.h"
 
-/*
-Block generateApartments(number_of_block, number_of_apartments){
-    /*
-    Block block = createBlock(number_of_block);
 
-    block = setNumberOfApartments(block, number_of_apartments);
+ServiceImmobile* createService(RepositoryImmobile* repository_immobile){
+    ServiceImmobile* service = (ServiceImmobile*)malloc(sizeof(ServiceImmobile));
 
-    for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
+    service -> repository_immobile = repository_immobile;
 
-        block = createApartment(block, number_of_apartment);
-
-        // (water, sewer, heating, gas)
-        float cost = 0;
-        block = setWaterExpense(block, number_of_apartment, cost);
-        block = setSewerExpense(block, number_of_apartment, cost);
-        block = setHeatingExpense(block, number_of_apartment, cost);
-        block = setGasExpense(block, number_of_apartment, cost);
-
-    }
-
-    return block;
-
+    return service;
 }
-*/
+
+void destroyService(ServiceImmobile* service_immobile){
+    destroyRepository(service_immobile -> repository_immobile);
+    free(service_immobile);
+}
+
+int generateApartments(ServiceImmobile* service, int number_of_apartments){
+    Apartment* apartment;
+    for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
+        apartment = createApartment(number_of_apartment);
+        addApartment(service -> repository_immobile, apartment);
+    }
+}
+
+Element getApartments(ServiceImmobile* service){
+    return getAllApartments(service -> repository_immobile);
+}

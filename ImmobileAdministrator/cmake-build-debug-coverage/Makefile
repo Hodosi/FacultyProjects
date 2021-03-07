@@ -223,33 +223,6 @@ domain/expense.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.s
 .PHONY : domain/expense.c.s
 
-domain/valueObject.obj: domain/valueObject.c.obj
-
-.PHONY : domain/valueObject.obj
-
-# target to build an object file
-domain/valueObject.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj
-.PHONY : domain/valueObject.c.obj
-
-domain/valueObject.i: domain/valueObject.c.i
-
-.PHONY : domain/valueObject.i
-
-# target to preprocess a source file
-domain/valueObject.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.i
-.PHONY : domain/valueObject.c.i
-
-domain/valueObject.s: domain/valueObject.c.s
-
-.PHONY : domain/valueObject.s
-
-# target to generate assembly for a file
-domain/valueObject.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.s
-.PHONY : domain/valueObject.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -430,9 +403,6 @@ help:
 	@echo ... domain/expense.obj
 	@echo ... domain/expense.i
 	@echo ... domain/expense.s
-	@echo ... domain/valueObject.obj
-	@echo ... domain/valueObject.i
-	@echo ... domain/valueObject.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

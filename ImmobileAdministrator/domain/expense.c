@@ -6,6 +6,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+//water, sewer, heating, gas
 Expense* createExpense(int number_of_apartment, double cost, char* type){
     Expense* expense  = (Expense*)malloc(sizeof(Expense));
 
@@ -41,24 +42,3 @@ void getType(Expense* expense, char* type){
     strcpy(type, expense -> type);
 }
 
-/*
-Block setWaterExpense(Block block, int number_of_apartment, float cost){
-
-}
-
-Block setSewerExpense(Block block, int number_of_apartment, float cost){
-
-}
-
-Block setHeatingExpense(Block block, int number_of_apartment, float cost){
-
-}
-
-Block setGasExpense(Block block, int number_of_apartment, float cost){
-
-}
-
-Expense getExpense(Apartment apartment, int number_of_expense){
-
-}
-*/

@@ -8,52 +8,71 @@
 #include "../domain/valueObject.h"
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 
+UserInterfaceImmobile* createUserInterface(ServiceImmobile* service){
+    UserInterfaceImmobile* user_interface = (UserInterfaceImmobile*)malloc(sizeof(UserInterfaceImmobile));
 
-/*
-void showBlock(Block block){
+    user_interface -> service_immobile = service;
 
-    /*
-    int number_of_apartments = getNumberOfApartments(block);
-    for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
-        printf("%d ", number_of_apartment);
+    return user_interface;
+}
 
-        Apartment apartment = getApartment(block, number_of_apartment);
-        int number_of_expenses = getNumberOfExpenses(apartment);
+void destroyUserInterface(UserInterfaceImmobile* user_interface){
+    destroyService(user_interface -> service_immobile);
+    free(user_interface);
+}
 
-        for(int number_of_expense = 0; number_of_expense < number_of_expenses; number_of_expense++){
-            Expense expense = getExpense(apartment, number_of_expense);
+void showApartmentsUI(UserInterfaceImmobile* ui){
 
-            char type[10];
-            getType(expense, type);
-            printf("%s ", type);
+    Element items = getApartments(ui -> service_immobile);
 
-            float cost = getCost(expense);
-            printf("%f ", cost);
+    DynamicVector *vector = items;
+
+    Apartment* apartment;
+
+    for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
+        apartment = vector -> items[number_of_apartment];
+        printf("%d ", apartment -> number_of_apartment);
+        for(int number_of_expense = 0; number_of_expense < apartment -> number_of_expenses; number_of_expense++){
+            printf("%s ", apartment -> expenses[number_of_expense] -> type);
+            printf("%f ",  apartment -> expenses[number_of_expense] -> cost);
         }
-
         printf("\n");
     }
     printf("\n");
+}
+
+int generateApartmentsUI(UserInterfaceImmobile* ui){
+    char number_of_apartments_str[256];
+    scanf("%s", number_of_apartments_str);
+
+    int number_of_apartments = atoi(number_of_apartments_str);
+
+    if(number_of_apartments == 0){
+        return 2;
+    }
+
+    generateApartments(ui -> service_immobile, number_of_apartments);
+
+    return 0;
+}
+
+void addExpensesUI(UserInterfaceImmobile* ui){
 
 }
-*/
-
-void addExpensesUI(){
+void modifyExpenseUI(UserInterfaceImmobile* ui){
 
 }
-void modifyExpenseUI(){
+void deleteExpenseUI(UserInterfaceImmobile* ui){
 
 }
-void deleteExpenseUI(){
+void viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
 
 }
-void viewExpensesByPropertyUI(){
-
-}
-void viewExpensesOrderedUI(){
+void viewExpensesOrderedUI(UserInterfaceImmobile* ui){
 
 }
 
@@ -68,36 +87,38 @@ void showMenu(){
     printf("\n");
 }
 
-void userInterface(){
+void runUserInterface(UserInterfaceImmobile* ui){
     char command[10];
-    //Block block;
-    //block = generateApartmentsUI();
+    int valid_command;
+
+    valid_command = generateApartmentsUI(ui);
+    if(valid_command != 0){
+        printf("Invalid input!");
+        return;
+    }
 
     while (true){
-        //showBlock(block);
+        showApartmentsUI(ui);
         showMenu();
-        scanf("%s", &command);
+        scanf("%s", command);
         if(strcmp(command, "exit") == 0){
             printf("Good Bye!\n");
             return;
         }
-        else if(strcmp(command, "0") == 0){
-            //block = generateApartmentsUI();
-        }
         else if(strcmp(command, "1") == 0){
-            addExpensesUI();
+            addExpensesUI(ui);
         }
         else if(strcmp(command, "2") == 0){
-            modifyExpenseUI();
+            modifyExpenseUI(ui);
         }
         else if(strcmp(command, "3") == 0){
-            deleteExpenseUI();
+            deleteExpenseUI(ui);
         }
         else if(strcmp(command, "4") == 0){
-            viewExpensesByPropertyUI();
+            viewExpensesByPropertyUI(ui);
         }
         else if(strcmp(command, "5") == 0){
-            viewExpensesOrderedUI();
+            viewExpensesOrderedUI(ui);
         }
         else{
             printf("Invalid command!\n");

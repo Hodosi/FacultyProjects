@@ -13,4 +13,11 @@ typedef struct {
     int capacity;
 } DynamicVector;
 
+DynamicVector* createDynamicVector();
+
+void destroyDynamicVector(DynamicVector*);
+
+void add(DynamicVector*, Element);
+
+
 #endif //IMMOBILEADMINISTRATOR_DYNAMICVECTOR_H

@@ -4,6 +4,7 @@
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../business/service.c
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../business/service.h
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../domain/valueObject.h
+CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../persistence/dynamicVector.h
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../persistence/repository.h
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../validation/validator.h
 
@@ -13,23 +14,32 @@ CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj: ../domain/valueObje
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj: ../domain/expense.c
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj: ../domain/valueObject.h
 
-CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj: ../domain/valueObject.c
-
+CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../business/service.h
+CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../domain/valueObject.h
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../main.c
+CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../persistence/dynamicVector.h
+CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../persistence/repository.h
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../presentation/userInterface.h
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../test/test.h
 
+CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj: ../persistence/dynamicVector.c
+CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj: ../persistence/dynamicVector.h
+
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: ../domain/valueObject.h
+CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: ../persistence/dynamicVector.h
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: ../persistence/repository.c
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: ../persistence/repository.h
 
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../business/service.h
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../domain/valueObject.h
+CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../persistence/dynamicVector.h
+CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../persistence/repository.h
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../presentation/userInterface.c
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../presentation/userInterface.h
 
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../business/service.h
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../domain/valueObject.h
+CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../persistence/dynamicVector.h
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../persistence/repository.h
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../test/test.c
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../test/test.h

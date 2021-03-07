@@ -13,4 +13,13 @@ typedef struct{
     RepositoryImmobile* repository_immobile;
 }ServiceImmobile;
 
+ServiceImmobile* createService(RepositoryImmobile*);
+
+void destroyService(ServiceImmobile*);
+
+int generateApartments(ServiceImmobile*, int);
+
+Element getApartments(ServiceImmobile*);
+
+
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H

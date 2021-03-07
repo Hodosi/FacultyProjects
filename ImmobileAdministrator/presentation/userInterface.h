@@ -9,6 +9,12 @@
 
 typedef struct {
     ServiceImmobile *service_immobile;
-}userInterfaceImmobile;
+}UserInterfaceImmobile;
+
+UserInterfaceImmobile* createUserInterface(ServiceImmobile*);
+
+void destroyUserInterface(UserInterfaceImmobile*);
+
+void runUserInterface(UserInterfaceImmobile*);
 
 #endif //IMMOBILEADMINISTRATOR_USERINTERFACE_H

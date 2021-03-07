@@ -18,7 +18,7 @@ typedef struct{
     int number_of_apartment;
 
     int number_of_expenses;
-    Expense *expenses;
+    Expense **expenses;
 
 } Apartment;
 

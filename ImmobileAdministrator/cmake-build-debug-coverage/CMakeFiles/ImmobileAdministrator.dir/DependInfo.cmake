@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/FacultyProjects/ImmobileAdministrator/business/service.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/domain/expense.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj"
-  "D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/main.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj"
   "D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c" "D:/FacultyProjects/ImmobileAdministrator/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj"

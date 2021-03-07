@@ -33,6 +33,12 @@ void runDomainTests(){
 
     assert(getApartmentNumber(apartment) == number_of_apartment);
 
+    assert(apartment -> expenses[0] -> number_of_apartment == number_of_apartment);
+    assert(apartment -> expenses[0] -> cost == 0);
+    assert(apartment -> expenses[1] -> cost == 0);
+    assert(apartment -> expenses[2] -> cost == 0);
+    assert(apartment -> expenses[3] -> cost == 0);
+
     destroyApartment(apartment);
 
     printf("End of domain tests...\n");

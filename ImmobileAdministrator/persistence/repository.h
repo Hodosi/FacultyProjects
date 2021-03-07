@@ -12,4 +12,12 @@ typedef struct {
     DynamicVector* dynamic_vector;
 }RepositoryImmobile;
 
+RepositoryImmobile* createRepository();
+
+void destroyRepository(RepositoryImmobile*);
+
+void addApartment(RepositoryImmobile*, Apartment*);
+
+Element getAllApartments(RepositoryImmobile*);
+
 #endif //IMMOBILEADMINISTRATOR_REPOSITORY_H

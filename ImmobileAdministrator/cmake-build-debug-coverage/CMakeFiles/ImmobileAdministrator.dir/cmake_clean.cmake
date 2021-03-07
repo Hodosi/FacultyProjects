@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj"
-  "CMakeFiles/ImmobileAdministrator.dir/domain/valueObject.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj"
   "CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj"
