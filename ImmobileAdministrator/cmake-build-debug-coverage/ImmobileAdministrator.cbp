@@ -94,6 +94,12 @@
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/main.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>

@@ -29,16 +29,20 @@ void showApartmentsUI(UserInterfaceImmobile* ui){
 
     Element items = getApartments(ui -> service_immobile);
 
-    DynamicVector *vector = items;
+    //DynamicVector *vector = items;
+    DynamicStaticVector *vector = items;
 
     Apartment* apartment;
+
+    char type[256];
 
     for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
         apartment = vector -> items[number_of_apartment];
         printf("%d ", apartment -> number_of_apartment);
         for(int number_of_expense = 0; number_of_expense < apartment -> number_of_expenses; number_of_expense++){
-            printf("%s ", apartment -> expenses[number_of_expense] -> type);
-            printf("%f ",  apartment -> expenses[number_of_expense] -> cost);
+            getType(apartment -> expenses[number_of_expense], type);
+            printf("%s ", type);
+            printf("%f ",  getCost(apartment -> expenses[number_of_expense]));
         }
         printf("\n");
     }

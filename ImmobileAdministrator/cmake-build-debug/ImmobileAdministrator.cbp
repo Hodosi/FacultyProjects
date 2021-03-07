@@ -88,13 +88,16 @@
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/expense.c">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
-		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.c">
-			<Option target="ImmobileAdministrator"/>
-		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/main.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.c">
+			<Option target="ImmobileAdministrator"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h">
 			<Option target="ImmobileAdministrator"/>
 		</Unit>
 		<Unit filename="D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c">

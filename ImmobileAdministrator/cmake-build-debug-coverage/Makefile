@@ -250,6 +250,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/main.c.s
 .PHONY : main.c.s
 
+persistence/dynamicStaticVector.obj: persistence/dynamicStaticVector.c.obj
+
+.PHONY : persistence/dynamicStaticVector.obj
+
+# target to build an object file
+persistence/dynamicStaticVector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.obj
+.PHONY : persistence/dynamicStaticVector.c.obj
+
+persistence/dynamicStaticVector.i: persistence/dynamicStaticVector.c.i
+
+.PHONY : persistence/dynamicStaticVector.i
+
+# target to preprocess a source file
+persistence/dynamicStaticVector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.i
+.PHONY : persistence/dynamicStaticVector.c.i
+
+persistence/dynamicStaticVector.s: persistence/dynamicStaticVector.c.s
+
+.PHONY : persistence/dynamicStaticVector.s
+
+# target to generate assembly for a file
+persistence/dynamicStaticVector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ImmobileAdministrator.dir\build.make CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.s
+.PHONY : persistence/dynamicStaticVector.c.s
+
 persistence/dynamicVector.obj: persistence/dynamicVector.c.obj
 
 .PHONY : persistence/dynamicVector.obj
@@ -406,6 +433,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... persistence/dynamicStaticVector.obj
+	@echo ... persistence/dynamicStaticVector.i
+	@echo ... persistence/dynamicStaticVector.s
 	@echo ... persistence/dynamicVector.obj
 	@echo ... persistence/dynamicVector.i
 	@echo ... persistence/dynamicVector.s
