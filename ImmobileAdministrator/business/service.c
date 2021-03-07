@@ -46,3 +46,15 @@ int addExpense(ServiceImmobile* service, int number_of_apartment, double cost, c
     addApartmentExpense(service -> repository_immobile, number_of_apartment, cost, type);
     return 0;
 }
+
+int modifyExpense(ServiceImmobile* service, int number_of_apartment, double cost, char* type){
+    int repo_size = getRepositorySize(service -> repository_immobile);
+    if(validateApartmentNumber(repo_size, number_of_apartment) != 0){
+        return 2;
+    }
+    if(validateType(type) != 0){
+        return 2;
+    }
+    modifyApartmentExpense(service -> repository_immobile, number_of_apartment, cost, type);
+    return 0;
+}

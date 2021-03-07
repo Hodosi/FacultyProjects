@@ -26,6 +26,8 @@ int getRepositorySize(RepositoryImmobile*);
 
 void addApartmentExpense(RepositoryImmobile*, int, double, char*);
 
+void modifyApartmentExpense(RepositoryImmobile*, int, double, char*);
+
 Apartment* getApartmentByNumber(RepositoryImmobile*, int);
 
 

@@ -61,3 +61,9 @@ void addApartmentExpense(RepositoryImmobile* repository, int number_of_apartment
     setCostByType(apartment, type, new_cost);
 }
 
+void modifyApartmentExpense(RepositoryImmobile* repository, int number_of_apartment, double cost, char* type){
+
+    Apartment* apartment = getApartmentByNumber(repository, number_of_apartment);
+    setCostByType(apartment, type, cost);
+}
+

@@ -120,6 +120,7 @@ void runServiceTests(){
 
     int number_of_apartments = 2;
 
+    //////////////////////////////////////////////////////////////
     //generate apartments test
     generateApartments(service, number_of_apartments);
 
@@ -130,6 +131,7 @@ void runServiceTests(){
     assert(getApartmentNumber(vector->items[0]) == 0);
     assert(getApartmentNumber(vector->items[1]) == 1);
 
+    /////////////////////////////////////////////////////////////////////////
     //add expense test with valid input
     int number_of_apartment = 1;
     double cost = 4.5;
@@ -187,6 +189,60 @@ void runServiceTests(){
     cost = 4.5;
     strcpy(type, "gas");
     assert(addExpense(service, number_of_apartment, cost, type) == 0);
+
+    /////////////////////////////////////////////////////////////////
+    //modify expense
+
+
+    cost = 7.53;
+    modifyExpense(service, number_of_apartment, cost, type);
+    cost_after = getCostByType(apartment, type);
+
+    assert(fabs(cost - cost_after) < 0.001);
+
+    //add expense test with invalid input
+    //invalid number
+    number_of_apartment = -1;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
+
+    number_of_apartment = 2;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
+
+    //invalid type
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "");
+    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "yes sir");
+    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
+
+    //valid type and number
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "sewer");
+    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "heating");
+    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "gas");
+    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
 
 
     destroyService(service);
