@@ -28,6 +28,8 @@ void addApartmentExpense(RepositoryImmobile*, int, double, char*);
 
 void modifyApartmentExpense(RepositoryImmobile*, int, double, char*);
 
+void deleteApartmentExpense(RepositoryImmobile*, int, char*);
+
 Apartment* getApartmentByNumber(RepositoryImmobile*, int);
 
 

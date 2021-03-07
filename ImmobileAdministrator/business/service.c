@@ -58,3 +58,15 @@ int modifyExpense(ServiceImmobile* service, int number_of_apartment, double cost
     modifyApartmentExpense(service -> repository_immobile, number_of_apartment, cost, type);
     return 0;
 }
+
+int deleteExpense(ServiceImmobile* service, int number_of_apartment,  char* type){
+    int repo_size = getRepositorySize(service -> repository_immobile);
+    if(validateApartmentNumber(repo_size, number_of_apartment) != 0){
+        return 2;
+    }
+    if(validateType(type) != 0){
+        return 2;
+    }
+    deleteApartmentExpense(service -> repository_immobile, number_of_apartment, type);
+    return 0;
+}

@@ -245,9 +245,54 @@ void runServiceTests(){
     assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
 
 
+    /////////////////////////////////////////////////////////////////
+    //delete expense
+
+
+    deleteExpense(service, number_of_apartment, type);
+    cost_after = getCostByType(apartment, type);
+
+    assert(fabs(0.0 - cost_after) < 0.001);
+
+    //add expense test with invalid input
+    //invalid number
+    number_of_apartment = -1;
+    strcpy(type, "water");
+    assert(deleteExpense(service, number_of_apartment, type) != 0);
+
+    number_of_apartment = 2;
+    strcpy(type, "water");
+    assert(deleteExpense(service, number_of_apartment, type) != 0);
+
+    //invalid type
+    number_of_apartment = 1;
+    strcpy(type, "");
+    assert(deleteExpense(service, number_of_apartment, type) != 0);
+
+    number_of_apartment = 1;
+    strcpy(type, "yes sir");
+    assert(deleteExpense(service, number_of_apartment, type) != 0);
+
+    //valid type and number
+    number_of_apartment = 1;
+    strcpy(type, "water");
+    assert(deleteExpense(service, number_of_apartment, type) == 0);
+
+    number_of_apartment = 1;
+    strcpy(type, "sewer");
+    assert(deleteExpense(service, number_of_apartment, type) == 0);
+
+    number_of_apartment = 1;
+    strcpy(type, "heating");
+    assert(deleteExpense(service, number_of_apartment, type) == 0);
+
+    number_of_apartment = 1;
+    strcpy(type, "gas");
+    assert(deleteExpense(service, number_of_apartment, type) == 0);
+
     destroyService(service);
 
-    printf("End of repository tests...\n");
+    printf("End of service tests...\n");
 }
 
 void runAllTests(){

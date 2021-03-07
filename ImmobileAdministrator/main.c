@@ -18,6 +18,5 @@ int main() {
 
     destroyUserInterface(ui_immobile);
 
-
     return 0;
 }

@@ -126,9 +126,30 @@ int modifyExpenseUI(UserInterfaceImmobile* ui){
 
     return 0;
 }
-void deleteExpenseUI(UserInterfaceImmobile* ui){
+int deleteExpenseUI(UserInterfaceImmobile* ui){
+    char number_of_apartments_str[64];
+    char type[64];
 
+    printf("Give the number of apartment:\n");
+    scanf("%s", number_of_apartments_str);
+
+
+    printf("Give the type:\n");
+    scanf("%s", type);
+
+    int number_of_apartments = atoi(number_of_apartments_str);
+
+    if(number_of_apartments == 0){
+        return 2;
+    }
+
+    if(deleteExpense(ui -> service_immobile, number_of_apartments, type) != 0){
+        return 2;
+    }
+
+    return 0;
 }
+
 void viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
 
 }
@@ -175,7 +196,9 @@ void runUserInterface(UserInterfaceImmobile* ui){
             }
         }
         else if(strcmp(command, "3") == 0){
-            deleteExpenseUI(ui);
+            if(deleteExpenseUI(ui) == 0){
+                printf("Invalid input!\n");
+            }
         }
         else if(strcmp(command, "4") == 0){
             viewExpensesByPropertyUI(ui);

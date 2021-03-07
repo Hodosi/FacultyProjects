@@ -25,5 +25,7 @@ int addExpense(ServiceImmobile*, int, double, char*);
 
 int modifyExpense(ServiceImmobile*, int, double, char*);
 
+int deleteExpense(ServiceImmobile*, int, char*);
+
 
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H
