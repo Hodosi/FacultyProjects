@@ -21,5 +21,7 @@ void generateApartments(ServiceImmobile*, int);
 
 Element getApartments(ServiceImmobile*);
 
+int addExpense(ServiceImmobile*, int, double, char*);
+
 
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H

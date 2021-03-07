@@ -33,6 +33,8 @@ int getApartmentNumberOfExpense(Expense* expense);
 
 double getCost(Expense* expense);
 
+void setCost(Expense* expense, double new_cost);
+
 void getType(Expense* expense, char* type);
 
 //apartments
@@ -41,5 +43,9 @@ Apartment* createApartment(int number_of_apartment);
 void destroyApartment(Apartment* apartment);
 
 int getApartmentNumber(Apartment *apartment);
+
+double getCostByType(Apartment* apartment, char* type);
+
+void setCostByType(Apartment* apartment, char* type, double new_cost);
 
 #endif //IMMOBILEADMINISTRATOR_VALUEOBJECT_H

@@ -4,6 +4,7 @@
 
 #include "repository.h"
 #include <stdlib.h>
+#include <string.h>
 
 RepositoryImmobile* createRepository(){
     //DynamicVector* dynamic_vector = createDynamicVector();
@@ -37,7 +38,26 @@ Element getAllApartments(RepositoryImmobile* repository){
     return repository -> dynamic_vector;
 }
 
+Apartment* getApartmentByNumber(RepositoryImmobile* repository, int number_of_apartment){
+    //DynamicVector* vector = repository -> dynamic_vector;
+    DynamicStaticVector* vector = repository -> dynamic_vector;
+    for(int i = 0; i < vector -> length; i++) {
+        if(i == number_of_apartment){
+            return vector -> items[i];
+        }
+    }
+}
+
 int getRepositorySize(RepositoryImmobile* repository){
     return repository -> dynamic_vector -> length;
+}
+
+void addApartmentExpense(RepositoryImmobile* repository, int number_of_apartment, double cost, char* type){
+
+    char new_type[256];
+    Apartment* apartment = getApartmentByNumber(repository, number_of_apartment);
+    double old_cost = getCostByType(apartment, type);
+    double new_cost = old_cost += cost;
+    setCostByType(apartment, type, new_cost);
 }
 

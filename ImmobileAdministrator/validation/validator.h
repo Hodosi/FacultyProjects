@@ -5,4 +5,8 @@
 #ifndef IMMOBILEADMINISTRATOR_VALIDATOR_H
 #define IMMOBILEADMINISTRATOR_VALIDATOR_H
 
+int validateApartmentNumber(int repo_size, int number_of_apartment);
+
+int validateType(char* type);
+
 #endif //IMMOBILEADMINISTRATOR_VALIDATOR_H

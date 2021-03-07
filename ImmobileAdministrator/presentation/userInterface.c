@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <math.h>
 
 UserInterfaceImmobile* createUserInterface(ServiceImmobile* service){
     UserInterfaceImmobile* user_interface = (UserInterfaceImmobile*)malloc(sizeof(UserInterfaceImmobile));
@@ -51,6 +52,7 @@ void showApartmentsUI(UserInterfaceImmobile* ui){
 
 int generateApartmentsUI(UserInterfaceImmobile* ui){
     char number_of_apartments_str[256];
+    printf("Give the number of apartments you want to be menage:\n");
     scanf("%s", number_of_apartments_str);
 
     int number_of_apartments = atoi(number_of_apartments_str);
@@ -64,8 +66,35 @@ int generateApartmentsUI(UserInterfaceImmobile* ui){
     return 0;
 }
 
-void addExpensesUI(UserInterfaceImmobile* ui){
+int addExpensesUI(UserInterfaceImmobile* ui){
+    char number_of_apartments_str[64];
+    char cost_str[64];
+    char type[64];
 
+    printf("Give the number of apartment:\n");
+    scanf("%s", number_of_apartments_str);
+
+    printf("Give the cost:\n");
+    scanf("%s", cost_str);
+
+    printf("Give the type:\n");
+    scanf("%s", type);
+
+    int number_of_apartments = atoi(number_of_apartments_str);
+    double cost = atof(cost_str);
+
+    if(number_of_apartments == 0){
+        return 2;
+    }
+    if(fabs(cost - 0.0) < 0.0001){
+        return 2;
+    }
+
+    if(addExpense(ui -> service_immobile, number_of_apartments, cost, type) != 0){
+        return 2;
+    }
+
+    return 0;
 }
 void modifyExpenseUI(UserInterfaceImmobile* ui){
 
@@ -81,7 +110,6 @@ void viewExpensesOrderedUI(UserInterfaceImmobile* ui){
 }
 
 void showMenu(){
-    printf("0. Generate apartments\n");
     printf("1. Add expenses for an apartment\n");
     printf("2. Modification of an existing expense (type, amount)\n");
     printf("3. Delete the expense\n");
@@ -110,7 +138,9 @@ void runUserInterface(UserInterfaceImmobile* ui){
             return;
         }
         else if(strcmp(command, "1") == 0){
-            addExpensesUI(ui);
+            if(addExpensesUI(ui) != 0){
+                printf("Invalid input!\n");
+            }
         }
         else if(strcmp(command, "2") == 0){
             modifyExpenseUI(ui);

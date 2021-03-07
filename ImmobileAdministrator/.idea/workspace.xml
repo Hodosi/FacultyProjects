@@ -21,6 +21,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" afterDir="false" />
@@ -33,10 +35,15 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/apartment.c" beforeDir="false" afterPath="$PROJECT_DIR$/domain/apartment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/expense.c" beforeDir="false" afterPath="$PROJECT_DIR$/domain/expense.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/valueObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/domain/valueObject.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/repository.c" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/userInterface.c" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/userInterface.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/validator.c" beforeDir="false" afterPath="$PROJECT_DIR$/validation/validator.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/validator.h" beforeDir="false" afterPath="$PROJECT_DIR$/validation/validator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +109,7 @@
       <workItem from="1614939806204" duration="516000" />
       <workItem from="1614940348971" duration="23408000" />
       <workItem from="1615030179094" duration="17702000" />
-      <workItem from="1615103981113" duration="22826000" />
+      <workItem from="1615103981113" duration="32047000" />
     </task>
     <servers />
   </component>

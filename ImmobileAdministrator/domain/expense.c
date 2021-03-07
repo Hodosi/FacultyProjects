@@ -38,6 +38,11 @@ double getCost(Expense* expense){
     return expense -> cost;
 }
 
+void setCost(Expense* expense, double new_cost){
+    expense -> cost = new_cost;
+}
+
+
 void getType(Expense* expense, char* type){
     strcpy(type, expense -> type);
 }

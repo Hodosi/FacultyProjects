@@ -22,6 +22,11 @@ void addApartment(RepositoryImmobile*, Apartment*);
 
 Element getAllApartments(RepositoryImmobile*);
 
-int getRepositorySize(RepositoryImmobile* repository);
+int getRepositorySize(RepositoryImmobile*);
+
+void addApartmentExpense(RepositoryImmobile*, int, double, char*);
+
+Apartment* getApartmentByNumber(RepositoryImmobile*, int);
+
 
 #endif //IMMOBILEADMINISTRATOR_REPOSITORY_H
