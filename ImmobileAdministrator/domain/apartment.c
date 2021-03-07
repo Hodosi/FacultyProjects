@@ -26,7 +26,7 @@ Apartment* createApartment(int number_of_apartment){
     expense = createExpense(number_of_apartment, 0, type_heating);
     apartment -> expenses[2] = expense;
 
-    char type_gas[] = "heating";
+    char type_gas[] = "gas";
     expense = createExpense(number_of_apartment, 0, type_gas);
     apartment -> expenses[3] = expense;
 

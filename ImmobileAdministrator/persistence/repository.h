@@ -22,4 +22,6 @@ void addApartment(RepositoryImmobile*, Apartment*);
 
 Element getAllApartments(RepositoryImmobile*);
 
+int getRepositorySize(RepositoryImmobile* repository);
+
 #endif //IMMOBILEADMINISTRATOR_REPOSITORY_H

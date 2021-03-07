@@ -13,44 +13,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee524049-8acb-4fb8-9748-b899e5c514c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/persistence/dynamicStaticVector.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/dynamicStaticVector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/service.c" beforeDir="false" afterPath="$PROJECT_DIR$/business/service.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/service.h" beforeDir="false" afterPath="$PROJECT_DIR$/business/service.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.gcno" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImmobileAdministrator.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ImmobileAdministrator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ImmobileAdministrator.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/apartment.c" beforeDir="false" afterPath="$PROJECT_DIR$/domain/apartment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/repository.c" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/userInterface.c" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/userInterface.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
       <workItem from="1614939806204" duration="516000" />
       <workItem from="1614940348971" duration="23408000" />
       <workItem from="1615030179094" duration="17702000" />
-      <workItem from="1615103981113" duration="20007000" />
+      <workItem from="1615103981113" duration="22826000" />
     </task>
     <servers />
   </component>

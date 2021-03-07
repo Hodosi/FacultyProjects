@@ -10,6 +10,7 @@
 int main() {
     runAllTests();
 
+    /*
     RepositoryImmobile* repository_immobile = createRepository();
     ServiceImmobile* service_immobile = createService(repository_immobile);
     UserInterfaceImmobile* ui_immobile = createUserInterface(service_immobile);
@@ -18,5 +19,6 @@ int main() {
 
     destroyUserInterface(ui_immobile);
 
+    */
     return 0;
 }

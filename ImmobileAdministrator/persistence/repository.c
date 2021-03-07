@@ -37,3 +37,7 @@ Element getAllApartments(RepositoryImmobile* repository){
     return repository -> dynamic_vector;
 }
 
+int getRepositorySize(RepositoryImmobile* repository){
+    return repository -> dynamic_vector -> length;
+}
+

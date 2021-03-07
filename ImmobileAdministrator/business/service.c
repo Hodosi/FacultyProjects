@@ -23,7 +23,7 @@ void destroyService(ServiceImmobile* service_immobile){
     free(service_immobile);
 }
 
-int generateApartments(ServiceImmobile* service, int number_of_apartments){
+void generateApartments(ServiceImmobile* service, int number_of_apartments){
     Apartment* apartment;
     for(int number_of_apartment = 0; number_of_apartment < number_of_apartments; number_of_apartment++){
         apartment = createApartment(number_of_apartment);

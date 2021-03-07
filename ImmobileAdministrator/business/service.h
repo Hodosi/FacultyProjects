@@ -17,7 +17,7 @@ ServiceImmobile* createService(RepositoryImmobile*);
 
 void destroyService(ServiceImmobile*);
 
-int generateApartments(ServiceImmobile*, int);
+void generateApartments(ServiceImmobile*, int);
 
 Element getApartments(ServiceImmobile*);
 

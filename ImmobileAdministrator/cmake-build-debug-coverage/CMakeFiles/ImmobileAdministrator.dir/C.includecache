@@ -6,11 +6,41 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.c
-dynamicStaticVector.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
-stdlib.h
--
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+../persistence/repository.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
+
+D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
+
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+dynamicVector.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
+dynamicStaticVector.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
+
+D:/FacultyProjects/ImmobileAdministrator/test/test.c
+test.h
+D:/FacultyProjects/ImmobileAdministrator/test/test.h
+../business/service.h
+D:/FacultyProjects/ImmobileAdministrator/business/service.h
+../persistence/repository.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
+../domain/valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+stdio.h
+-
+assert.h
+-
+string.h
+-
+
+D:/FacultyProjects/ImmobileAdministrator/test/test.h
 
