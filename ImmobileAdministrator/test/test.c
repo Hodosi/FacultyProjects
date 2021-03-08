@@ -363,6 +363,33 @@ void runServiceFiltrationAndSortingTests(){
 
     destroyDynamicStaticVector(vector_filtration);
 
+
+    ///////////////////////////////////////
+    items = sortingApartmentsBySum(service_filtration, "love");
+    assert(items == NULL);
+
+    items = sortingApartmentsBySum(service_filtration, "gas");
+
+    //DynamicVector *vector = items;
+    DynamicStaticVector *vector_sorting = items;
+
+    Apartment* apartment_sorting;
+
+    apartment_sorting = vector_sorting -> items[0];
+
+    cost = 3.7;
+    test_cost = getCostByType(apartment_sorting, "gas");
+    assert(fabs(test_cost - cost) < 0.0001);
+
+    apartment_sorting = vector_sorting-> items[3];
+
+    cost = 6.8;
+    test_cost = getCostByType(apartment_sorting, "gas");
+    assert(fabs(test_cost - cost) < 0.0001);
+
+
+    destroyDynamicStaticVector(vector_sorting);
+
     destroyService(service_filtration);
     printf("End of service tests...\n");
 

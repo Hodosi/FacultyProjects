@@ -216,7 +216,39 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
     return 0;
 
 }
-void viewExpensesOrderedUI(UserInterfaceImmobile* ui){
+
+int viewExpensesOrderedUI(UserInterfaceImmobile* ui){
+    char type[64];
+
+    printf("Give the type:\n");
+    scanf("%s", type);
+
+    Element items = sortingApartmentsBySum(ui -> service_immobile, type);
+
+    if(items == NULL){
+        return 2;
+    }
+    //DynamicVector *vector = items;
+    DynamicStaticVector *vector = items;
+
+    Apartment* apartment;
+
+
+    for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
+        apartment = vector -> items[number_of_apartment];
+        printf("%d ", apartment -> number_of_apartment);
+        for(int number_of_expense = 0; number_of_expense < apartment -> number_of_expenses; number_of_expense++){
+            getType(apartment -> expenses[number_of_expense], type);
+            printf("%s ", type);
+            printf("%f ",  getCost(apartment -> expenses[number_of_expense]));
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    destroyDynamicStaticVector(vector);
+
+    return 0;
 
 }
 
@@ -254,20 +286,24 @@ void runUserInterface(UserInterfaceImmobile* ui){
             }
         }
         else if(strcmp(command, "2") == 0){
-            if(modifyExpenseUI(ui) == 0){
+            if(modifyExpenseUI(ui) != 0){
                 printf("Invalid input!\n");
             }
         }
         else if(strcmp(command, "3") == 0){
-            if(deleteExpenseUI(ui) == 0){
+            if(deleteExpenseUI(ui) != 0){
                 printf("Invalid input!\n");
             }
         }
         else if(strcmp(command, "4") == 0){
-            viewExpensesByPropertyUI(ui);
+            if(viewExpensesByPropertyUI(ui) != 0){
+                printf("Invalid input!\n");
+            }
         }
         else if(strcmp(command, "5") == 0){
-            viewExpensesOrderedUI(ui);
+            if(viewExpensesOrderedUI(ui) != 0){
+                printf("Invalid input!\n");
+            }
         }
         else{
             printf("Invalid command!\n");

@@ -103,3 +103,45 @@ Element filtrationBySumAndType(ServiceImmobile* service, double min_cost, double
 
     return res_of_filtration;
 }
+
+Element sortingApartmentsBySum(ServiceImmobile* service, char* type){
+
+    if(validateType(type) != 0){
+        return NULL;
+    }
+
+    Element items = getAllApartments(service -> repository_immobile);
+
+    //DynamicVector *vector_filtration = items;
+    DynamicStaticVector *vector_sorting = items;
+
+    DynamicStaticVector* res_of_sorting = createDynamicStaticVector();
+
+    Apartment *apartment, *apartment_i, *apartment_j, *copy_apartment;
+
+    int size = vector_sorting -> length;
+    double cost_i, cost_j;
+
+
+    for(int i = 0; i < size; i++){
+        apartment = vector_sorting -> items[i];
+        copy_apartment = copyApartment(apartment);
+        addStatic(res_of_sorting, copy_apartment);
+    }
+
+    for(int i = 0; i < size - 1; i++){
+        for(int j = i+1; j < size; j++){
+            apartment_i = res_of_sorting -> items[i];
+            apartment_j = res_of_sorting -> items[j];
+            cost_i = getCostByType(apartment_i, type);
+            cost_j = getCostByType(apartment_j, type);
+            if(cost_i > cost_j) {
+                res_of_sorting->items[i] = apartment_j;
+                res_of_sorting->items[j] = apartment_i;
+            }
+        }
+    }
+
+    return res_of_sorting;
+
+}

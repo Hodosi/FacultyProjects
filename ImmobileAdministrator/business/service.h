@@ -29,4 +29,6 @@ int deleteExpense(ServiceImmobile*, int, char*);
 
 Element filtrationBySumAndType(ServiceImmobile*, double, double, char*);
 
+Element sortingApartmentsBySum(ServiceImmobile*, char*);
+
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H
