@@ -33,3 +33,10 @@ int validateType(char* type){
     }
     return 2;
 }
+
+int validateCosts(double min_cost, double max_cost){
+    if(min_cost > max_cost){
+        return 2;
+    }
+    return 0;
+}

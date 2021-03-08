@@ -9,4 +9,6 @@ int validateApartmentNumber(int repo_size, int number_of_apartment);
 
 int validateType(char* type);
 
+int validateCosts(double , double );
+
 #endif //IMMOBILEADMINISTRATOR_VALIDATOR_H

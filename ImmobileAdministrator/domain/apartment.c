@@ -42,6 +42,21 @@ void destroyApartment(Apartment* apartment){
     free(apartment);
 }
 
+Apartment* copyApartment(Apartment* apartment){
+
+    Apartment* new_apartment = (Apartment*)malloc(sizeof(Apartment));
+
+    new_apartment -> number_of_apartment = apartment -> number_of_apartment;
+    new_apartment -> number_of_expenses = apartment -> number_of_expenses;
+    new_apartment -> expenses = (Expense**)malloc(sizeof(Expense*) * 4);
+
+    for(int i = 0; i < apartment -> number_of_expenses; i++){
+        new_apartment -> expenses[i] = copyExpense(apartment -> expenses[i]);
+    }
+
+    return new_apartment;
+}
+
 int getApartmentNumber(Apartment* apartment){
     return apartment -> number_of_apartment;
 }

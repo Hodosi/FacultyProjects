@@ -80,10 +80,16 @@ int addExpensesUI(UserInterfaceImmobile* ui){
     printf("Give the type:\n");
     scanf("%s", type);
 
+    bool zero = false;
+    if(strcmp(number_of_apartments_str, "0") == 0){
+        zero = true;
+    }
+
     int number_of_apartments = atoi(number_of_apartments_str);
     double cost = atof(cost_str);
 
-    if(number_of_apartments == 0){
+    if(number_of_apartments == 0 && !zero){
+
         return 2;
     }
     if(fabs(cost - 0.0) < 0.0001){
@@ -110,10 +116,15 @@ int modifyExpenseUI(UserInterfaceImmobile* ui){
     printf("Give the type:\n");
     scanf("%s", type);
 
+    bool zero = false;
+    if(strcmp(number_of_apartments_str, "0") == 0){
+        zero = true;
+    }
+
     int number_of_apartments = atoi(number_of_apartments_str);
     double cost = atof(cost_str);
 
-    if(number_of_apartments == 0){
+    if(number_of_apartments == 0 && !zero){
         return 2;
     }
     if(fabs(cost - 0.0) < 0.0001){
@@ -137,9 +148,15 @@ int deleteExpenseUI(UserInterfaceImmobile* ui){
     printf("Give the type:\n");
     scanf("%s", type);
 
+    bool zero = false;
+    if(strcmp(number_of_apartments_str, "0") == 0){
+        zero = true;
+    }
+
     int number_of_apartments = atoi(number_of_apartments_str);
 
-    if(number_of_apartments == 0){
+
+    if(number_of_apartments == 0 && !zero){
         return 2;
     }
 
@@ -150,7 +167,53 @@ int deleteExpenseUI(UserInterfaceImmobile* ui){
     return 0;
 }
 
-void viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
+int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
+    char min_cost_str[64];
+    char max_cost_str[64];
+    char type[64];
+
+    printf("Give the min cost:\n");
+    scanf("%s", min_cost_str);
+
+    printf("Give the max cost:\n");
+    scanf("%s", max_cost_str);
+
+    printf("Give the type:\n");
+    scanf("%s", type);
+
+    double min_cost = atof(min_cost_str);
+    double max_cost = atof(max_cost_str);
+
+    if(fabs(min_cost - 0.0) < 0.0001 || fabs(max_cost - 0.0) < 0.0001 ){
+        return 2;
+    }
+
+    Element items = filtrationBySumAndType(ui -> service_immobile, min_cost, max_cost, type);
+
+    if(items == NULL){
+        return 2;
+    }
+    //DynamicVector *vector = items;
+    DynamicStaticVector *vector = items;
+
+    Apartment* apartment;
+
+
+    for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
+        apartment = vector -> items[number_of_apartment];
+        printf("%d ", apartment -> number_of_apartment);
+        for(int number_of_expense = 0; number_of_expense < apartment -> number_of_expenses; number_of_expense++){
+            getType(apartment -> expenses[number_of_expense], type);
+            printf("%s ", type);
+            printf("%f ",  getCost(apartment -> expenses[number_of_expense]));
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    destroyDynamicStaticVector(vector);
+
+    return 0;
 
 }
 void viewExpensesOrderedUI(UserInterfaceImmobile* ui){

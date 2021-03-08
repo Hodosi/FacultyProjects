@@ -40,45 +40,9 @@ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
 dynamicStaticVector.h
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
 
-D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.c
-userInterface.h
 D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
 ../business/service.h
 D:/FacultyProjects/ImmobileAdministrator/business/service.h
-../domain/valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-stdio.h
--
-stdlib.h
--
-string.h
--
-stdbool.h
--
-math.h
--
-
-D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
-../business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
-
-D:/FacultyProjects/ImmobileAdministrator/test/test.c
-test.h
-D:/FacultyProjects/ImmobileAdministrator/test/test.h
-../business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
-../persistence/repository.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
-../domain/valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-stdio.h
--
-assert.h
--
-string.h
--
-math.h
--
 
 D:/FacultyProjects/ImmobileAdministrator/test/test.h
 

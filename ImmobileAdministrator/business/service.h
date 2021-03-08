@@ -27,5 +27,6 @@ int modifyExpense(ServiceImmobile*, int, double, char*);
 
 int deleteExpense(ServiceImmobile*, int, char*);
 
+Element filtrationBySumAndType(ServiceImmobile*, double, double, char*);
 
 #endif //IMMOBILEADMINISTRATOR_SERVICE_H

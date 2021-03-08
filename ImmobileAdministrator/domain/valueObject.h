@@ -48,4 +48,6 @@ double getCostByType(Apartment* apartment, char* type);
 
 void setCostByType(Apartment* apartment, char* type, double new_cost);
 
+Apartment* copyApartment(Apartment* apartment);
+
 #endif //IMMOBILEADMINISTRATOR_VALUEOBJECT_H

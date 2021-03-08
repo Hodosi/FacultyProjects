@@ -110,7 +110,7 @@ void runRepositoryTests(){
 }
 
 
-void runServiceTests(){
+void runServiceCrudTests(){
     printf("Start of service tests...\n");
 
     RepositoryImmobile* repository = createRepository();
@@ -290,13 +290,87 @@ void runServiceTests(){
     strcpy(type, "gas");
     assert(deleteExpense(service, number_of_apartment, type) == 0);
 
+    //View the list of expenses filtered by a property (amount, type, apartment)
+    //View the list of expenses filtered by a property (amount, type, apartment)
+
+
     destroyService(service);
 
     printf("End of service tests...\n");
 }
 
+void runServiceFiltrationAndSortingTests(){
+    printf("Start of service tests...\n");
+    RepositoryImmobile* repository_filtration = createRepository();
+    ServiceImmobile* service_filtration = createService(repository_filtration);
+
+    int number_of_apartments, number_of_apartment;
+    double cost;
+    char type[256];
+    number_of_apartments = 4;
+    generateApartments(service_filtration, number_of_apartments);
+
+
+    number_of_apartment = 0;
+    cost = 4.5;
+    strcpy(type, "gas");
+    addExpense(service_filtration, number_of_apartment, cost, type);
+
+    number_of_apartment = 1;
+    cost = 3.7;
+    strcpy(type, "gas");
+    addExpense(service_filtration, number_of_apartment, cost, type);
+
+    number_of_apartment = 2;
+    cost = 6.8;
+    strcpy(type, "gas");
+    addExpense(service_filtration, number_of_apartment, cost, type);
+
+    number_of_apartment = 3;
+    cost = 5.1;
+    strcpy(type, "gas");
+    addExpense(service_filtration, number_of_apartment, cost, type);
+
+    double sum_min = 4.9;
+    double sum_max = 7.8;
+
+    Element items;
+    items = filtrationBySumAndType(service_filtration, sum_min, sum_max, "war");
+    assert(items == NULL);
+    items = filtrationBySumAndType(service_filtration, 5, 2, "water");
+    assert(items == NULL);
+
+    items = filtrationBySumAndType(service_filtration, sum_min, sum_max, type);
+
+    //DynamicVector *vector = items;
+    DynamicStaticVector *vector_filtration = items;
+
+    Apartment* apartment_filtration;
+
+    apartment_filtration = vector_filtration -> items[0];
+
+    double test_cost = getCostByType(apartment_filtration, "gas");
+    cost = 6.8;
+    assert(fabs(test_cost - cost) < 0.0001);
+
+
+    apartment_filtration = vector_filtration -> items[1];
+
+    test_cost = getCostByType(apartment_filtration, "gas");
+    cost = 5.1;
+    assert(fabs(test_cost - cost) < 0.0001);
+
+
+    destroyDynamicStaticVector(vector_filtration);
+
+    destroyService(service_filtration);
+    printf("End of service tests...\n");
+
+}
+
 void runAllTests(){
     runDomainTests();
     runRepositoryTests();
-    runServiceTests();
+    runServiceCrudTests();
+    runServiceFiltrationAndSortingTests();
 }

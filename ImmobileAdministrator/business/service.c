@@ -4,6 +4,7 @@
 
 #include "service.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 #include "../persistence/repository.h"
 #include "../validation/validator.h"
@@ -69,4 +70,36 @@ int deleteExpense(ServiceImmobile* service, int number_of_apartment,  char* type
     }
     deleteApartmentExpense(service -> repository_immobile, number_of_apartment, type);
     return 0;
+}
+
+Element filtrationBySumAndType(ServiceImmobile* service, double min_cost, double max_cost, char* type){
+    if(validateCosts(min_cost, max_cost) != 0){
+        return NULL;
+    }
+
+    if(validateType(type) != 0){
+        return NULL;
+    }
+
+    Element items = getAllApartments(service -> repository_immobile);
+
+    //DynamicVector *vector_filtration = items;
+    DynamicStaticVector *vector_filtration = items;
+
+    Element res_of_filtration = createDynamicStaticVector();
+
+    Apartment *apartment, *copy_apartment;
+
+    int size = vector_filtration -> length;
+    double cost;
+    for(int i = 0; i < size; i++){
+        apartment = vector_filtration -> items[i];
+        cost = getCostByType(apartment, type);
+        if(min_cost <= cost && cost <= max_cost){
+            copy_apartment = copyApartment(apartment);
+            addStatic(res_of_filtration, copy_apartment);
+        }
+    }
+
+    return res_of_filtration;
 }
