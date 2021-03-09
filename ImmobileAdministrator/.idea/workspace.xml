@@ -16,14 +16,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/service.c" beforeDir="false" afterPath="$PROJECT_DIR$/business/service.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/service.h" beforeDir="false" afterPath="$PROJECT_DIR$/business/service.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.gcno" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/repository.c" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/userInterface.c" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/userInterface.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,8 @@
       <workItem from="1615103981113" duration="35801000" />
       <workItem from="1615209913533" duration="157000" />
       <workItem from="1615211717770" duration="266000" />
-      <workItem from="1615220321111" duration="15494000" />
+      <workItem from="1615220321111" duration="15617000" />
+      <workItem from="1615276980739" duration="6296000" />
     </task>
     <servers />
   </component>

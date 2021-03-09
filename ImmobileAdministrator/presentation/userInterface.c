@@ -13,27 +13,26 @@
 #include <stdbool.h>
 #include <math.h>
 
-UserInterfaceImmobile* createUserInterface(ServiceImmobile* service){
-    UserInterfaceImmobile* user_interface = (UserInterfaceImmobile*)malloc(sizeof(UserInterfaceImmobile));
+UserInterfaceImmobile* createUserInterface(ServiceImmobile *service){
+    UserInterfaceImmobile *user_interface = (UserInterfaceImmobile*)malloc(sizeof(UserInterfaceImmobile));
 
     user_interface -> service_immobile = service;
 
     return user_interface;
 }
 
-void destroyUserInterface(UserInterfaceImmobile* user_interface){
+void destroyUserInterface(UserInterfaceImmobile *user_interface){
     destroyService(user_interface -> service_immobile);
     free(user_interface);
 }
 
-void showApartmentsUI(UserInterfaceImmobile* ui){
-
+void showApartmentsUI(UserInterfaceImmobile *ui){
     Element items = getApartments(ui -> service_immobile);
 
     //DynamicVector *vector = items;
     DynamicStaticVector *vector = items;
 
-    Apartment* apartment;
+    Apartment *apartment;
 
     char type[256];
 
@@ -50,13 +49,12 @@ void showApartmentsUI(UserInterfaceImmobile* ui){
     printf("\n");
 }
 
-int generateApartmentsUI(UserInterfaceImmobile* ui){
+int generateApartmentsUI(UserInterfaceImmobile *ui){
     char number_of_apartments_str[256];
     printf("Give the number of apartments you want to be menage:\n");
     scanf("%s", number_of_apartments_str);
 
     int number_of_apartments = atoi(number_of_apartments_str);
-
     if(number_of_apartments == 0){
         return 2;
     }
@@ -66,7 +64,7 @@ int generateApartmentsUI(UserInterfaceImmobile* ui){
     return 0;
 }
 
-int addExpensesUI(UserInterfaceImmobile* ui){
+int addExpensesUI(UserInterfaceImmobile *ui){
     char number_of_apartments_str[64];
     char cost_str[64];
     char type[64];
@@ -86,12 +84,11 @@ int addExpensesUI(UserInterfaceImmobile* ui){
     }
 
     int number_of_apartments = atoi(number_of_apartments_str);
-    double cost = atof(cost_str);
-
     if(number_of_apartments == 0 && !zero){
-
         return 2;
     }
+
+    double cost = atof(cost_str);
     if(fabs(cost - 0.0) < 0.0001){
         return 2;
     }
@@ -102,7 +99,7 @@ int addExpensesUI(UserInterfaceImmobile* ui){
 
     return 0;
 }
-int modifyExpenseUI(UserInterfaceImmobile* ui){
+int modifyExpenseUI(UserInterfaceImmobile *ui){
     char number_of_apartments_str[64];
     char cost_str[64];
     char type[64];
@@ -137,13 +134,12 @@ int modifyExpenseUI(UserInterfaceImmobile* ui){
 
     return 0;
 }
-int deleteExpenseUI(UserInterfaceImmobile* ui){
+int deleteExpenseUI(UserInterfaceImmobile *ui){
     char number_of_apartments_str[64];
     char type[64];
 
     printf("Give the number of apartment:\n");
     scanf("%s", number_of_apartments_str);
-
 
     printf("Give the type:\n");
     scanf("%s", type);
@@ -154,8 +150,6 @@ int deleteExpenseUI(UserInterfaceImmobile* ui){
     }
 
     int number_of_apartments = atoi(number_of_apartments_str);
-
-
     if(number_of_apartments == 0 && !zero){
         return 2;
     }
@@ -167,7 +161,7 @@ int deleteExpenseUI(UserInterfaceImmobile* ui){
     return 0;
 }
 
-int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
+int viewExpensesByPropertyUI(UserInterfaceImmobile *ui){
     char min_cost_str[64];
     char max_cost_str[64];
     char type[64];
@@ -183,7 +177,6 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
 
     double min_cost = atof(min_cost_str);
     double max_cost = atof(max_cost_str);
-
     if(fabs(min_cost - 0.0) < 0.0001 || fabs(max_cost - 0.0) < 0.0001 ){
         return 2;
     }
@@ -193,11 +186,11 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
     if(items == NULL){
         return 2;
     }
+
     //DynamicVector *vector = items;
     DynamicStaticVector *vector = items;
 
-    Apartment* apartment;
-
+    Apartment *apartment;
 
     for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
         apartment = vector -> items[number_of_apartment];
@@ -217,7 +210,7 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile* ui){
 
 }
 
-int viewExpensesOrderedUI(UserInterfaceImmobile* ui){
+int viewExpensesOrderedUI(UserInterfaceImmobile *ui){
     char type[64];
 
     printf("Give the type:\n");
@@ -228,11 +221,11 @@ int viewExpensesOrderedUI(UserInterfaceImmobile* ui){
     if(items == NULL){
         return 2;
     }
+
     //DynamicVector *vector = items;
     DynamicStaticVector *vector = items;
 
-    Apartment* apartment;
-
+    Apartment *apartment;
 
     for(int number_of_apartment = 0; number_of_apartment < vector -> length; number_of_apartment++){
         apartment = vector -> items[number_of_apartment];
@@ -264,9 +257,8 @@ void showMenu(){
 
 void runUserInterface(UserInterfaceImmobile* ui){
     char command[10];
-    int valid_command;
 
-    valid_command = generateApartmentsUI(ui);
+    int valid_command = generateApartmentsUI(ui);
     if(valid_command != 0){
         printf("Invalid input!");
         return;
