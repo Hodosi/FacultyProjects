@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 Apartment* createApartment(int number_of_apartment){
     Apartment* apartment = (Apartment*)malloc(sizeof(Apartment));
 

@@ -26,6 +26,22 @@ D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 ../persistence/repository.h
 D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 
+D:/FacultyProjects/ImmobileAdministrator/domain/apartment.c
+valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+stdlib.h
+-
+string.h
+-
+
+D:/FacultyProjects/ImmobileAdministrator/domain/expense.c
+valueObject.h
+D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
+string.h
+-
+stdlib.h
+-
+
 D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
 D:/FacultyProjects/ImmobileAdministrator/main.c
@@ -43,6 +59,12 @@ business/service.h
 D:/FacultyProjects/ImmobileAdministrator/business/service.h
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
+
+D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c
+dynamicVector.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
+stdlib.h
+D:/FacultyProjects/ImmobileAdministrator/persistence/stdlib.h
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
 
