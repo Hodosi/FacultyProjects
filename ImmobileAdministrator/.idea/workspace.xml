@@ -14,13 +14,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ee524049-8acb-4fb8-9748-b899e5c514c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/service.c" beforeDir="false" afterPath="$PROJECT_DIR$/business/service.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ImmobileAdministrator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/apartment.c" beforeDir="false" afterPath="$PROJECT_DIR$/domain/apartment.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/valueObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/domain/valueObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/expense.c" beforeDir="false" afterPath="$PROJECT_DIR$/domain/expense.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/dynamicVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/dynamicVector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/userInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/userInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/repository.c" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/repository.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/userInterface.c" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/userInterface.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/validator.c" beforeDir="false" afterPath="$PROJECT_DIR$/validation/validator.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/validator.h" beforeDir="false" afterPath="$PROJECT_DIR$/validation/validator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +90,7 @@
       <workItem from="1615209913533" duration="157000" />
       <workItem from="1615211717770" duration="266000" />
       <workItem from="1615220321111" duration="15617000" />
-      <workItem from="1615276980739" duration="13171000" />
+      <workItem from="1615276980739" duration="15030000" />
     </task>
     <servers />
   </component>

@@ -15,7 +15,7 @@ int validateApartmentNumber(int repo_size, int number_of_apartment){
     return 0;
 }
 
-int validateType(char* type){
+int validateType(char *type){
     if(strlen(type) == 0){
         return 2;
     }

@@ -4,11 +4,10 @@
 
 #include "repository.h"
 #include <stdlib.h>
-#include <string.h>
 
 RepositoryImmobile* createRepository(){
-    //DynamicVector* dynamic_vector = createDynamicVector();
-    DynamicStaticVector *dynamic_vector = createDynamicStaticVector();
+    DynamicVector *dynamic_vector = createDynamicVector();
+    //DynamicStaticVector *dynamic_vector = createDynamicStaticVector();
 
     RepositoryImmobile *repository = malloc(sizeof(RepositoryImmobile));
     repository -> dynamic_vector = dynamic_vector;
@@ -17,22 +16,22 @@ RepositoryImmobile* createRepository(){
 }
 
 void destroyRepository(RepositoryImmobile *repository){
-    //DynamicVector* vector = repository -> dynamic_vector;
-    DynamicStaticVector *vector = repository -> dynamic_vector;
+    DynamicVector *vector = repository -> dynamic_vector;
+    //DynamicStaticVector *vector = repository -> dynamic_vector;
 
     for(int i =0; i < vector ->length; i++){
         destroyApartment(vector -> items[i]);
     }
 
-    //destroyDynamicVector(repository -> dynamic_vector);
-    destroyDynamicStaticVector(repository -> dynamic_vector);
+    destroyDynamicVector(repository -> dynamic_vector);
+    //destroyDynamicStaticVector(repository -> dynamic_vector);
 
     free(repository);
 }
 
 void addApartment(RepositoryImmobile *repository, Apartment *apartment){
-    //add(repository -> dynamic_vector, apartment);
-    addStatic(repository -> dynamic_vector, apartment);
+    add(repository -> dynamic_vector, apartment);
+    //addStatic(repository -> dynamic_vector, apartment);
 }
 
 Element getAllApartments(RepositoryImmobile *repository){
@@ -40,8 +39,8 @@ Element getAllApartments(RepositoryImmobile *repository){
 }
 
 Apartment* getApartmentByNumber(RepositoryImmobile *repository, int number_of_apartment){
-    //DynamicVector* vector = repository -> dynamic_vector;
-    DynamicStaticVector *vector = repository -> dynamic_vector;
+    DynamicVector *vector = repository -> dynamic_vector;
+    //DynamicStaticVector *vector = repository -> dynamic_vector;
 
     for(int i = 0; i < vector -> length; i++) {
         if(i == number_of_apartment){
@@ -55,10 +54,9 @@ int getRepositorySize(RepositoryImmobile *repository){
 }
 
 void addApartmentExpense(RepositoryImmobile *repository, int number_of_apartment, double cost, char *type){
-    char new_type[256];
     Apartment *apartment = getApartmentByNumber(repository, number_of_apartment);
     double old_cost = getCostByType(apartment, type);
-    double new_cost = old_cost += cost;
+    double new_cost = old_cost + cost;
 
     setCostByType(apartment, type, new_cost);
 }
@@ -71,7 +69,7 @@ void modifyApartmentExpense(RepositoryImmobile *repository, int number_of_apartm
 
 void deleteApartmentExpense(RepositoryImmobile *repository, int number_of_apartment, char *type){
     double cost = 0.0;
-    Apartment* apartment = getApartmentByNumber(repository, number_of_apartment);
+    Apartment *apartment = getApartmentByNumber(repository, number_of_apartment);
 
     setCostByType(apartment, type, cost);
 }

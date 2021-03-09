@@ -5,8 +5,6 @@
 #include "test.h"
 
 #include "../business/service.h"
-#include "../persistence/repository.h"
-#include "../domain/valueObject.h"
 
 #include <stdio.h>
 #include <assert.h>
@@ -23,7 +21,7 @@ void runDomainTests(){
     char test_type[256];
 
     //create test
-    Expense* expense = createExpense(number_of_apartment, cost, type);
+    Expense *expense = createExpense(number_of_apartment, cost, type);
 
     assert(getApartmentNumberOfExpense(expense) == number_of_apartment);
     assert(getCost(expense) == cost);
@@ -35,7 +33,7 @@ void runDomainTests(){
 
     //apartment tests
     //create test
-    Apartment* apartment = createApartment(number_of_apartment);
+    Apartment *apartment = createApartment(number_of_apartment);
 
     //test number of apartment
     assert(getApartmentNumber(apartment) == number_of_apartment);
@@ -48,10 +46,10 @@ void runDomainTests(){
         setCost(apartment -> expenses[i], new_cost);
         assert(getCost(apartment -> expenses[i]) == new_cost);
     }
+
     //test get cost by type
     cost = getCostByType(apartment, type);
     assert(fabs(cost - new_cost) < 0.01);
-
 
     //test set cost by type
     cost = 6.7;
@@ -82,7 +80,7 @@ void runRepositoryTests(){
     printf("Start of repository tests...\n");
 
     int number_of_apartment = 0;
-    Apartment* apartment = createApartment(number_of_apartment);
+    Apartment *apartment = createApartment(number_of_apartment);
 
     //create test
     RepositoryImmobile* repository = createRepository();
@@ -94,13 +92,13 @@ void runRepositoryTests(){
     assert(getRepositorySize(repository) == 1);
 
     //get all apartments test
-    //DynamicVector *vector = getAllApartments(repository);
-    DynamicStaticVector *vector = getAllApartments(repository);
+    DynamicVector *vector = getAllApartments(repository);
+    //DynamicStaticVector *vector = getAllApartments(repository);
 
     assert(getApartmentNumber(vector->items[0]) == number_of_apartment);
 
     //get apartment test
-    Apartment* new_apartment = getApartmentByNumber(repository, number_of_apartment);
+    Apartment *new_apartment = getApartmentByNumber(repository, number_of_apartment);
     assert(getApartmentNumber(new_apartment) == number_of_apartment);
 
     //destroy test
@@ -125,8 +123,8 @@ void runServiceCrudTests(){
     generateApartments(service, number_of_apartments);
 
     //get all apartments test
-    //DynamicVector *vector = getAllApartments(repository);
-    DynamicStaticVector* vector = getApartments(service);
+    DynamicVector *vector = getAllApartments(repository);
+    //DynamicStaticVector* vector = getApartments(service);
 
     assert(getApartmentNumber(vector->items[0]) == 0);
     assert(getApartmentNumber(vector->items[1]) == 1);
@@ -136,7 +134,7 @@ void runServiceCrudTests(){
     int number_of_apartment = 1;
     double cost = 4.5;
     double cost_before, cost_after, new_cost;
-    char new_type[256], type[256] = "gas";
+    char type[256] = "gas";
 
     Apartment* apartment = getApartmentByNumber(repository, number_of_apartment);
     cost_before = getCostByType(apartment, type);
@@ -192,8 +190,6 @@ void runServiceCrudTests(){
 
     /////////////////////////////////////////////////////////////////
     //modify expense
-
-
     cost = 7.53;
     modifyExpense(service, number_of_apartment, cost, type);
     cost_after = getCostByType(apartment, type);
@@ -247,8 +243,6 @@ void runServiceCrudTests(){
 
     /////////////////////////////////////////////////////////////////
     //delete expense
-
-
     deleteExpense(service, number_of_apartment, type);
     cost_after = getCostByType(apartment, type);
 
@@ -290,10 +284,6 @@ void runServiceCrudTests(){
     strcpy(type, "gas");
     assert(deleteExpense(service, number_of_apartment, type) == 0);
 
-    //View the list of expenses filtered by a property (amount, type, apartment)
-    //View the list of expenses filtered by a property (amount, type, apartment)
-
-
     destroyService(service);
 
     printf("End of service tests...\n");
@@ -309,7 +299,6 @@ void runServiceFiltrationAndSortingTests(){
     char type[256];
     number_of_apartments = 4;
     generateApartments(service_filtration, number_of_apartments);
-
 
     number_of_apartment = 0;
     cost = 4.5;
@@ -342,8 +331,8 @@ void runServiceFiltrationAndSortingTests(){
 
     items = filtrationBySumAndType(service_filtration, sum_min, sum_max, type);
 
-    //DynamicVector *vector = items;
-    DynamicStaticVector *vector_filtration = items;
+    DynamicVector *vector_filtration = items;
+    //DynamicStaticVector *vector_filtration = items;
 
     Apartment* apartment_filtration;
 
@@ -353,16 +342,14 @@ void runServiceFiltrationAndSortingTests(){
     cost = 6.8;
     assert(fabs(test_cost - cost) < 0.0001);
 
-
     apartment_filtration = vector_filtration -> items[1];
 
     test_cost = getCostByType(apartment_filtration, "gas");
     cost = 5.1;
     assert(fabs(test_cost - cost) < 0.0001);
 
-
-    destroyDynamicStaticVector(vector_filtration);
-
+    destroyDynamicVector(vector_filtration);
+    //destroyDynamicStaticVector(vector_filtration);
 
     ///////////////////////////////////////
     items = sortingApartmentsBySum(service_filtration, "love");
@@ -370,8 +357,8 @@ void runServiceFiltrationAndSortingTests(){
 
     items = sortingApartmentsBySum(service_filtration, "gas");
 
-    //DynamicVector *vector = items;
-    DynamicStaticVector *vector_sorting = items;
+    DynamicVector *vector_sorting = items;
+    //DynamicStaticVector *vector_sorting = items;
 
     Apartment* apartment_sorting;
 
@@ -387,12 +374,11 @@ void runServiceFiltrationAndSortingTests(){
     test_cost = getCostByType(apartment_sorting, "gas");
     assert(fabs(test_cost - cost) < 0.0001);
 
-
-    destroyDynamicStaticVector(vector_sorting);
+    destroyDynamicVector(vector_sorting);
+    //destroyDynamicStaticVector(vector_sorting);
 
     destroyService(service_filtration);
     printf("End of service tests...\n");
-
 }
 
 void runAllTests(){

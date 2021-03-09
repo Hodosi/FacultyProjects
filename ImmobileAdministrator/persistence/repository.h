@@ -10,8 +10,8 @@
 #include "dynamicStaticVector.h"
 
 typedef struct {
-    //DynamicVector* dynamic_vector;
-    DynamicStaticVector* dynamic_vector;
+    DynamicVector* dynamic_vector;
+    //DynamicStaticVector* dynamic_vector;
 }RepositoryImmobile;
 
 /*

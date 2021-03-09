@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 Apartment* createApartment(int number_of_apartment){
     Apartment* apartment = (Apartment*)malloc(sizeof(Apartment));
 
@@ -35,7 +34,7 @@ Apartment* createApartment(int number_of_apartment){
     return apartment;
 }
 
-void destroyApartment(Apartment* apartment){
+void destroyApartment(Apartment *apartment){
     for(int i = 0; i < apartment -> number_of_expenses; i++){
         destroyExpense(apartment -> expenses[i]);
     }
@@ -43,9 +42,9 @@ void destroyApartment(Apartment* apartment){
     free(apartment);
 }
 
-Apartment* copyApartment(Apartment* apartment){
+Apartment* copyApartment(Apartment *apartment){
 
-    Apartment* new_apartment = (Apartment*)malloc(sizeof(Apartment));
+    Apartment *new_apartment = (Apartment*)malloc(sizeof(Apartment));
 
     new_apartment -> number_of_apartment = apartment -> number_of_apartment;
     new_apartment -> number_of_expenses = apartment -> number_of_expenses;
@@ -58,11 +57,11 @@ Apartment* copyApartment(Apartment* apartment){
     return new_apartment;
 }
 
-int getApartmentNumber(Apartment* apartment){
+int getApartmentNumber(Apartment *apartment){
     return apartment -> number_of_apartment;
 }
 
-double getCostByType(Apartment* apartment, char* type){
+double getCostByType(Apartment *apartment, char *type){
     char new_type[256];
     for(int i = 0; i < apartment -> number_of_expenses; i++){
         getType(apartment -> expenses[i], new_type);
@@ -72,7 +71,7 @@ double getCostByType(Apartment* apartment, char* type){
     }
 }
 
-void setCostByType(Apartment* apartment, char* type, double new_cost){
+void setCostByType(Apartment *apartment, char *type, double new_cost){
     char new_type[256];
     for(int i = 0; i < apartment -> number_of_expenses; i++){
         getType(apartment -> expenses[i], new_type);

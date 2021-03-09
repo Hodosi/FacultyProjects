@@ -11,14 +11,8 @@ service.h
 D:/FacultyProjects/ImmobileAdministrator/business/service.h
 stdlib.h
 -
-stdio.h
--
-../persistence/repository.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 ../validation/validator.h
 D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
-../domain/valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 
 D:/FacultyProjects/ImmobileAdministrator/business/service.h
 ../domain/valueObject.h
@@ -49,22 +43,8 @@ presentation/userInterface.h
 D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
 test/test.h
 D:/FacultyProjects/ImmobileAdministrator/test/test.h
-persistence/repository.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
-business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
-presentation/userInterface.h
-D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
-business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
-
-D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.c
-dynamicVector.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
-stdlib.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/stdlib.h
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicVector.h
 
@@ -72,8 +52,6 @@ D:/FacultyProjects/ImmobileAdministrator/persistence/repository.c
 repository.h
 D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
 stdlib.h
--
-string.h
 -
 
 D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
@@ -87,10 +65,6 @@ D:/FacultyProjects/ImmobileAdministrator/persistence/dynamicStaticVector.h
 D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.c
 userInterface.h
 D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
-../business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
-../domain/valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
 stdio.h
 -
 stdlib.h
@@ -106,25 +80,13 @@ D:/FacultyProjects/ImmobileAdministrator/presentation/userInterface.h
 ../business/service.h
 D:/FacultyProjects/ImmobileAdministrator/business/service.h
 
-D:/FacultyProjects/ImmobileAdministrator/test/test.c
-test.h
 D:/FacultyProjects/ImmobileAdministrator/test/test.h
-../business/service.h
-D:/FacultyProjects/ImmobileAdministrator/business/service.h
-../persistence/repository.h
-D:/FacultyProjects/ImmobileAdministrator/persistence/repository.h
-../domain/valueObject.h
-D:/FacultyProjects/ImmobileAdministrator/domain/valueObject.h
-stdio.h
--
-assert.h
--
+
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.c
+validator.h
+D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 string.h
 -
-math.h
--
-
-D:/FacultyProjects/ImmobileAdministrator/test/test.h
 
 D:/FacultyProjects/ImmobileAdministrator/validation/validator.h
 

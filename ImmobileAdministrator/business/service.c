@@ -4,12 +4,8 @@
 
 #include "service.h"
 #include <stdlib.h>
-#include <stdio.h>
 
-#include "../persistence/repository.h"
 #include "../validation/validator.h"
-#include "../domain/valueObject.h"
-
 
 ServiceImmobile* createService(RepositoryImmobile *repository_immobile){
     ServiceImmobile *service = (ServiceImmobile*)malloc(sizeof(ServiceImmobile));
@@ -91,10 +87,11 @@ Element filtrationBySumAndType(ServiceImmobile *service, double min_cost, double
 
     Element items = getAllApartments(service -> repository_immobile);
 
-    //DynamicVector *vector_filtration = items;
-    DynamicStaticVector *vector_filtration = items;
+    DynamicVector *vector_filtration = items;
+    //DynamicStaticVector *vector_filtration = items;
 
-    Element res_of_filtration = createDynamicStaticVector();
+    Element res_of_filtration = createDynamicVector();
+    //Element res_of_filtration = createDynamicStaticVector();
 
     Apartment *apartment, *copy_apartment;
 
@@ -105,7 +102,8 @@ Element filtrationBySumAndType(ServiceImmobile *service, double min_cost, double
         cost = getCostByType(apartment, type);
         if(min_cost <= cost && cost <= max_cost){
             copy_apartment = copyApartment(apartment);
-            addStatic(res_of_filtration, copy_apartment);
+            add(res_of_filtration, copy_apartment);
+            //addStatic(res_of_filtration, copy_apartment);
         }
     }
 
@@ -119,10 +117,11 @@ Element sortingApartmentsBySum(ServiceImmobile *service, char *type){
 
     Element items = getAllApartments(service -> repository_immobile);
 
-    //DynamicVector *vector_filtration = items;
-    DynamicStaticVector *vector_sorting = items;
+    DynamicVector *vector_sorting = items;
+    //DynamicStaticVector *vector_sorting = items;
 
-    DynamicStaticVector *res_of_sorting = createDynamicStaticVector();
+    DynamicVector *res_of_sorting = createDynamicVector();
+    //DynamicStaticVector *res_of_sorting = createDynamicStaticVector();
 
     Apartment *apartment, *apartment_i, *apartment_j, *copy_apartment;
 
@@ -132,7 +131,8 @@ Element sortingApartmentsBySum(ServiceImmobile *service, char *type){
     for(int i = 0; i < size; i++){
         apartment = vector_sorting -> items[i];
         copy_apartment = copyApartment(apartment);
-        addStatic(res_of_sorting, copy_apartment);
+        add(res_of_sorting, copy_apartment);
+        //addStatic(res_of_sorting, copy_apartment);
     }
 
     for(int i = 0; i < size - 1; i++){

@@ -4,9 +4,6 @@
 
 #include "userInterface.h"
 
-#include "../business/service.h"
-#include "../domain/valueObject.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -29,8 +26,8 @@ void destroyUserInterface(UserInterfaceImmobile *user_interface){
 void showApartmentsUI(UserInterfaceImmobile *ui){
     Element items = getApartments(ui -> service_immobile);
 
-    //DynamicVector *vector = items;
-    DynamicStaticVector *vector = items;
+    DynamicVector *vector = items;
+    //DynamicStaticVector *vector = items;
 
     Apartment *apartment;
 
@@ -187,8 +184,8 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile *ui){
         return 2;
     }
 
-    //DynamicVector *vector = items;
-    DynamicStaticVector *vector = items;
+    DynamicVector *vector = items;
+    //DynamicStaticVector *vector = items;
 
     Apartment *apartment;
 
@@ -204,7 +201,8 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile *ui){
     }
     printf("\n");
 
-    destroyDynamicStaticVector(vector);
+    destroyDynamicVector(vector);
+    //destroyDynamicStaticVector(vector);
 
     return 0;
 
@@ -222,8 +220,8 @@ int viewExpensesOrderedUI(UserInterfaceImmobile *ui){
         return 2;
     }
 
-    //DynamicVector *vector = items;
-    DynamicStaticVector *vector = items;
+    DynamicVector *vector = items;
+    //DynamicStaticVector *vector = items;
 
     Apartment *apartment;
 
@@ -239,7 +237,8 @@ int viewExpensesOrderedUI(UserInterfaceImmobile *ui){
     }
     printf("\n");
 
-    destroyDynamicStaticVector(vector);
+    destroyDynamicVector(vector);
+    //destroyDynamicStaticVector(vector);
 
     return 0;
 
