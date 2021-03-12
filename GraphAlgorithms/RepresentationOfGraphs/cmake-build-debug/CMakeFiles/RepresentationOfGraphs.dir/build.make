@@ -89,19 +89,64 @@ CMakeFiles/RepresentationOfGraphs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RepresentationOfGraphs.dir/main.cpp.s"
 	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\main.cpp -o CMakeFiles\RepresentationOfGraphs.dir\main.cpp.s
 
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj: CMakeFiles/RepresentationOfGraphs.dir/flags.make
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj: ../adjacencyMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RepresentationOfGraphs.dir\adjacencyMatrix.cpp.obj -c D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyMatrix.cpp
+
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyMatrix.cpp > CMakeFiles\RepresentationOfGraphs.dir\adjacencyMatrix.cpp.i
+
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyMatrix.cpp -o CMakeFiles\RepresentationOfGraphs.dir\adjacencyMatrix.cpp.s
+
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj: CMakeFiles/RepresentationOfGraphs.dir/flags.make
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj: ../adjacencyList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RepresentationOfGraphs.dir\adjacencyList.cpp.obj -c D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyList.cpp
+
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyList.cpp > CMakeFiles\RepresentationOfGraphs.dir\adjacencyList.cpp.i
+
+CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\adjacencyList.cpp -o CMakeFiles\RepresentationOfGraphs.dir\adjacencyList.cpp.s
+
+CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj: CMakeFiles/RepresentationOfGraphs.dir/flags.make
+CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj: ../incidenceMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RepresentationOfGraphs.dir\incidenceMatrix.cpp.obj -c D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\incidenceMatrix.cpp
+
+CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\incidenceMatrix.cpp > CMakeFiles\RepresentationOfGraphs.dir\incidenceMatrix.cpp.i
+
+CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\incidenceMatrix.cpp -o CMakeFiles\RepresentationOfGraphs.dir\incidenceMatrix.cpp.s
+
 # Object files for target RepresentationOfGraphs
 RepresentationOfGraphs_OBJECTS = \
-"CMakeFiles/RepresentationOfGraphs.dir/main.cpp.obj"
+"CMakeFiles/RepresentationOfGraphs.dir/main.cpp.obj" \
+"CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj" \
+"CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj" \
+"CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj"
 
 # External object files for target RepresentationOfGraphs
 RepresentationOfGraphs_EXTERNAL_OBJECTS =
 
 RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/main.cpp.obj
+RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj
+RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj
+RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj
 RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/build.make
 RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/linklibs.rsp
 RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/objects1.rsp
 RepresentationOfGraphs.exe: CMakeFiles/RepresentationOfGraphs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RepresentationOfGraphs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\GraphAlgorithms\RepresentationOfGraphs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable RepresentationOfGraphs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RepresentationOfGraphs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

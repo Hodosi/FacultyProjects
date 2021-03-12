@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyList.cpp">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyList.h">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyMatrix.cpp">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyMatrix.h">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/incidenceMatrix.cpp">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/incidenceMatrix.h">
+			<Option target="RepresentationOfGraphs"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/main.cpp">
 			<Option target="RepresentationOfGraphs"/>
 		</Unit>

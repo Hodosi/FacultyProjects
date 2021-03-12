@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyList.cpp" "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj"
+  "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/adjacencyMatrix.cpp" "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj"
+  "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/incidenceMatrix.cpp" "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/main.cpp" "D:/FacultyProjects/GraphAlgorithms/RepresentationOfGraphs/cmake-build-debug/CMakeFiles/RepresentationOfGraphs.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

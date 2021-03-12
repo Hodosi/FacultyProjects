@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj"
+  "CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj"
+  "CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj"
   "CMakeFiles/RepresentationOfGraphs.dir/main.cpp.obj"
   "RepresentationOfGraphs.exe"
   "RepresentationOfGraphs.exe.manifest"

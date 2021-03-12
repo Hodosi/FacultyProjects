@@ -142,6 +142,87 @@ RepresentationOfGraphs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/build
 .PHONY : RepresentationOfGraphs/fast
 
+adjacencyList.obj: adjacencyList.cpp.obj
+
+.PHONY : adjacencyList.obj
+
+# target to build an object file
+adjacencyList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.obj
+.PHONY : adjacencyList.cpp.obj
+
+adjacencyList.i: adjacencyList.cpp.i
+
+.PHONY : adjacencyList.i
+
+# target to preprocess a source file
+adjacencyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.i
+.PHONY : adjacencyList.cpp.i
+
+adjacencyList.s: adjacencyList.cpp.s
+
+.PHONY : adjacencyList.s
+
+# target to generate assembly for a file
+adjacencyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyList.cpp.s
+.PHONY : adjacencyList.cpp.s
+
+adjacencyMatrix.obj: adjacencyMatrix.cpp.obj
+
+.PHONY : adjacencyMatrix.obj
+
+# target to build an object file
+adjacencyMatrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.obj
+.PHONY : adjacencyMatrix.cpp.obj
+
+adjacencyMatrix.i: adjacencyMatrix.cpp.i
+
+.PHONY : adjacencyMatrix.i
+
+# target to preprocess a source file
+adjacencyMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.i
+.PHONY : adjacencyMatrix.cpp.i
+
+adjacencyMatrix.s: adjacencyMatrix.cpp.s
+
+.PHONY : adjacencyMatrix.s
+
+# target to generate assembly for a file
+adjacencyMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/adjacencyMatrix.cpp.s
+.PHONY : adjacencyMatrix.cpp.s
+
+incidenceMatrix.obj: incidenceMatrix.cpp.obj
+
+.PHONY : incidenceMatrix.obj
+
+# target to build an object file
+incidenceMatrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.obj
+.PHONY : incidenceMatrix.cpp.obj
+
+incidenceMatrix.i: incidenceMatrix.cpp.i
+
+.PHONY : incidenceMatrix.i
+
+# target to preprocess a source file
+incidenceMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.i
+.PHONY : incidenceMatrix.cpp.i
+
+incidenceMatrix.s: incidenceMatrix.cpp.s
+
+.PHONY : incidenceMatrix.s
+
+# target to generate assembly for a file
+incidenceMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RepresentationOfGraphs.dir\build.make CMakeFiles/RepresentationOfGraphs.dir/incidenceMatrix.cpp.s
+.PHONY : incidenceMatrix.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +259,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... RepresentationOfGraphs
+	@echo ... adjacencyList.obj
+	@echo ... adjacencyList.i
+	@echo ... adjacencyList.s
+	@echo ... adjacencyMatrix.obj
+	@echo ... adjacencyMatrix.i
+	@echo ... adjacencyMatrix.s
+	@echo ... incidenceMatrix.obj
+	@echo ... incidenceMatrix.i
+	@echo ... incidenceMatrix.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
