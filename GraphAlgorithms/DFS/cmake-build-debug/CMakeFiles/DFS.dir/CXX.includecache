@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/GraphAlgorithms/DFS/DFS.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/DFS/domain.h
+vector
+-
+
+D:/FacultyProjects/GraphAlgorithms/DFS/adjacencyList.h
+domain.h
+D:/FacultyProjects/GraphAlgorithms/DFS/domain.h
+vector
+-
+string
+-
+
+D:/FacultyProjects/GraphAlgorithms/DFS/domain.h
+string
+-
+
+D:/FacultyProjects/GraphAlgorithms/DFS/main.cpp
+adjacencyList.h
+D:/FacultyProjects/GraphAlgorithms/DFS/adjacencyList.h
+DFS.h
+D:/FacultyProjects/GraphAlgorithms/DFS/DFS.h
+iostream
+-
+fstream
+-
+string
+-
+
