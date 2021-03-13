@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/App.cpp
+iostream
+-
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/main.cpp
+ProiectC++/App.cpp
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/App.cpp
+
