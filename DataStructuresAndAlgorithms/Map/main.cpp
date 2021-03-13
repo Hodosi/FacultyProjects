@@ -5,8 +5,8 @@
 
 using namespace std;
 int main() {
-    //testAll();
-    //	testAllExtins();
+    testAll();
+    testAllExtins();
 
     cout << "That's all!" << endl;
     return 0;

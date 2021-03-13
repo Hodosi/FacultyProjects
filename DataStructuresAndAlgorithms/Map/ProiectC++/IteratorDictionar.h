@@ -22,6 +22,11 @@ private:
     const Dictionar& dict;
     /* aici e reprezentarea specifica a iteratorului */
 
+    int curent;
+
+    //v2
+    //TElem *curent;
+
 public:
 
     //reseteaza pozitia iteratorului la inceputul containerului

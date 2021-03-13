@@ -22,6 +22,10 @@ class Dictionar {
 
 private:
     /* aici e reprezentarea */
+    int capacitate;
+    int dimensiune;
+    TElem *elemente;
+    void redim();
 
 public:
 
