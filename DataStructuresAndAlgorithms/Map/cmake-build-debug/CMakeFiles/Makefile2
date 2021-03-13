@@ -93,12 +93,12 @@ clean: CMakeFiles/Map.dir/clean
 CMakeFiles/Map.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Map"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Map"
 .PHONY : CMakeFiles/Map.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Map.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Map.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Map.dir/rule

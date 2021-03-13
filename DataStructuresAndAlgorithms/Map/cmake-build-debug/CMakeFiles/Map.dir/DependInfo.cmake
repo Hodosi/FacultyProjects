@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/Dictionar.cpp" "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/cmake-build-debug/CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj"
+  "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/IteratorDictionar.cpp" "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/cmake-build-debug/CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj"
+  "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestExtins.cpp" "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/cmake-build-debug/CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj"
+  "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestScurt.cpp" "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/cmake-build-debug/CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj"
   "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/main.cpp" "D:/FacultyProjects/DataStructuresAndAlgorithms/Map/cmake-build-debug/CMakeFiles/Map.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

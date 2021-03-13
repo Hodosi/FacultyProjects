@@ -142,6 +142,114 @@ Map/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/build
 .PHONY : Map/fast
 
+ProiectC++/Dictionar.obj: ProiectC++/Dictionar.cpp.obj
+
+.PHONY : ProiectC++/Dictionar.obj
+
+# target to build an object file
+ProiectC++/Dictionar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj
+.PHONY : ProiectC++/Dictionar.cpp.obj
+
+ProiectC++/Dictionar.i: ProiectC++/Dictionar.cpp.i
+
+.PHONY : ProiectC++/Dictionar.i
+
+# target to preprocess a source file
+ProiectC++/Dictionar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.i
+.PHONY : ProiectC++/Dictionar.cpp.i
+
+ProiectC++/Dictionar.s: ProiectC++/Dictionar.cpp.s
+
+.PHONY : ProiectC++/Dictionar.s
+
+# target to generate assembly for a file
+ProiectC++/Dictionar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.s
+.PHONY : ProiectC++/Dictionar.cpp.s
+
+ProiectC++/IteratorDictionar.obj: ProiectC++/IteratorDictionar.cpp.obj
+
+.PHONY : ProiectC++/IteratorDictionar.obj
+
+# target to build an object file
+ProiectC++/IteratorDictionar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj
+.PHONY : ProiectC++/IteratorDictionar.cpp.obj
+
+ProiectC++/IteratorDictionar.i: ProiectC++/IteratorDictionar.cpp.i
+
+.PHONY : ProiectC++/IteratorDictionar.i
+
+# target to preprocess a source file
+ProiectC++/IteratorDictionar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.i
+.PHONY : ProiectC++/IteratorDictionar.cpp.i
+
+ProiectC++/IteratorDictionar.s: ProiectC++/IteratorDictionar.cpp.s
+
+.PHONY : ProiectC++/IteratorDictionar.s
+
+# target to generate assembly for a file
+ProiectC++/IteratorDictionar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.s
+.PHONY : ProiectC++/IteratorDictionar.cpp.s
+
+Teste/TestExtins.obj: Teste/TestExtins.cpp.obj
+
+.PHONY : Teste/TestExtins.obj
+
+# target to build an object file
+Teste/TestExtins.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj
+.PHONY : Teste/TestExtins.cpp.obj
+
+Teste/TestExtins.i: Teste/TestExtins.cpp.i
+
+.PHONY : Teste/TestExtins.i
+
+# target to preprocess a source file
+Teste/TestExtins.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestExtins.cpp.i
+.PHONY : Teste/TestExtins.cpp.i
+
+Teste/TestExtins.s: Teste/TestExtins.cpp.s
+
+.PHONY : Teste/TestExtins.s
+
+# target to generate assembly for a file
+Teste/TestExtins.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestExtins.cpp.s
+.PHONY : Teste/TestExtins.cpp.s
+
+Teste/TestScurt.obj: Teste/TestScurt.cpp.obj
+
+.PHONY : Teste/TestScurt.obj
+
+# target to build an object file
+Teste/TestScurt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj
+.PHONY : Teste/TestScurt.cpp.obj
+
+Teste/TestScurt.i: Teste/TestScurt.cpp.i
+
+.PHONY : Teste/TestScurt.i
+
+# target to preprocess a source file
+Teste/TestScurt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestScurt.cpp.i
+.PHONY : Teste/TestScurt.cpp.i
+
+Teste/TestScurt.s: Teste/TestScurt.cpp.s
+
+.PHONY : Teste/TestScurt.s
+
+# target to generate assembly for a file
+Teste/TestScurt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Map.dir\build.make CMakeFiles/Map.dir/Teste/TestScurt.cpp.s
+.PHONY : Teste/TestScurt.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +286,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Map
+	@echo ... ProiectC++/Dictionar.obj
+	@echo ... ProiectC++/Dictionar.i
+	@echo ... ProiectC++/Dictionar.s
+	@echo ... ProiectC++/IteratorDictionar.obj
+	@echo ... ProiectC++/IteratorDictionar.i
+	@echo ... ProiectC++/IteratorDictionar.s
+	@echo ... Teste/TestExtins.obj
+	@echo ... Teste/TestExtins.i
+	@echo ... Teste/TestExtins.s
+	@echo ... Teste/TestScurt.obj
+	@echo ... Teste/TestScurt.i
+	@echo ... Teste/TestScurt.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

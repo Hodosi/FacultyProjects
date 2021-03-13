@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj"
+  "CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj"
+  "CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj"
+  "CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj"
   "CMakeFiles/Map.dir/main.cpp.obj"
   "Map.exe"
   "Map.exe.manifest"

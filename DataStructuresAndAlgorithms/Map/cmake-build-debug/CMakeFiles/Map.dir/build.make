@@ -89,19 +89,79 @@ CMakeFiles/Map.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Map.dir/main.cpp.s"
 	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\DataStructuresAndAlgorithms\Map\main.cpp -o CMakeFiles\Map.dir\main.cpp.s
 
+CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj: CMakeFiles/Map.dir/flags.make
+CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj: ../ProiectC++/Dictionar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Map.dir\ProiectC++\Dictionar.cpp.obj -c D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\Dictionar.cpp
+
+CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\Dictionar.cpp > CMakeFiles\Map.dir\ProiectC++\Dictionar.cpp.i
+
+CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\Dictionar.cpp -o CMakeFiles\Map.dir\ProiectC++\Dictionar.cpp.s
+
+CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj: CMakeFiles/Map.dir/flags.make
+CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj: ../ProiectC++/IteratorDictionar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Map.dir\ProiectC++\IteratorDictionar.cpp.obj -c D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\IteratorDictionar.cpp
+
+CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\IteratorDictionar.cpp > CMakeFiles\Map.dir\ProiectC++\IteratorDictionar.cpp.i
+
+CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\DataStructuresAndAlgorithms\Map\ProiectC++\IteratorDictionar.cpp -o CMakeFiles\Map.dir\ProiectC++\IteratorDictionar.cpp.s
+
+CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj: CMakeFiles/Map.dir/flags.make
+CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj: ../Teste/TestScurt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Map.dir\Teste\TestScurt.cpp.obj -c D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestScurt.cpp
+
+CMakeFiles/Map.dir/Teste/TestScurt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Map.dir/Teste/TestScurt.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestScurt.cpp > CMakeFiles\Map.dir\Teste\TestScurt.cpp.i
+
+CMakeFiles/Map.dir/Teste/TestScurt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Map.dir/Teste/TestScurt.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestScurt.cpp -o CMakeFiles\Map.dir\Teste\TestScurt.cpp.s
+
+CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj: CMakeFiles/Map.dir/flags.make
+CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj: ../Teste/TestExtins.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Map.dir\Teste\TestExtins.cpp.obj -c D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestExtins.cpp
+
+CMakeFiles/Map.dir/Teste/TestExtins.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Map.dir/Teste/TestExtins.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestExtins.cpp > CMakeFiles\Map.dir\Teste\TestExtins.cpp.i
+
+CMakeFiles/Map.dir/Teste/TestExtins.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Map.dir/Teste/TestExtins.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\FacultyProjects\DataStructuresAndAlgorithms\Map\Teste\TestExtins.cpp -o CMakeFiles\Map.dir\Teste\TestExtins.cpp.s
+
 # Object files for target Map
 Map_OBJECTS = \
-"CMakeFiles/Map.dir/main.cpp.obj"
+"CMakeFiles/Map.dir/main.cpp.obj" \
+"CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj" \
+"CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj" \
+"CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj" \
+"CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj"
 
 # External object files for target Map
 Map_EXTERNAL_OBJECTS =
 
 Map.exe: CMakeFiles/Map.dir/main.cpp.obj
+Map.exe: CMakeFiles/Map.dir/ProiectC++/Dictionar.cpp.obj
+Map.exe: CMakeFiles/Map.dir/ProiectC++/IteratorDictionar.cpp.obj
+Map.exe: CMakeFiles/Map.dir/Teste/TestScurt.cpp.obj
+Map.exe: CMakeFiles/Map.dir/Teste/TestExtins.cpp.obj
 Map.exe: CMakeFiles/Map.dir/build.make
 Map.exe: CMakeFiles/Map.dir/linklibs.rsp
 Map.exe: CMakeFiles/Map.dir/objects1.rsp
 Map.exe: CMakeFiles/Map.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Map.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\DataStructuresAndAlgorithms\Map\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Map.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Map.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

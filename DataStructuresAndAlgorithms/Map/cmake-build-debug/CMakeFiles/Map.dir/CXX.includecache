@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/App.cpp
-iostream
--
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestExtins.h
+
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestScurt.h
 
 D:/FacultyProjects/DataStructuresAndAlgorithms/Map/main.cpp
-ProiectC++/App.cpp
-D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/App.cpp
+Teste/TestScurt.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestScurt.h
+Teste/TestExtins.h
+D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestExtins.h
+iostream
+-
 

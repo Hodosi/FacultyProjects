@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/Dictionar.cpp">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/Dictionar.h">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/IteratorDictionar.cpp">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/ProiectC++/IteratorDictionar.h">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestExtins.cpp">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestExtins.h">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestScurt.cpp">
+			<Option target="Map"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/Teste/TestScurt.h">
+			<Option target="Map"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/DataStructuresAndAlgorithms/Map/main.cpp">
 			<Option target="Map"/>
 		</Unit>
