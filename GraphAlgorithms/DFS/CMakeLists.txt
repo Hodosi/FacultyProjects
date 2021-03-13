@@ -3,4 +3,4 @@ project(DFS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DFS main.cpp DFS.cpp DFS.h adjacencyList.cpp adjacencyList.h domain.h)
+add_executable(DFS main.cpp DFS.cpp DFS.h adjacencyList.cpp adjacencyList.h domain.h recursivelyDFS.cpp recursivelyDFS.h)

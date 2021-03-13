@@ -1,5 +1,6 @@
 #include "adjacencyList.h"
 #include "DFS.h"
+#include "recursivelyDFS.h"
 
 #include <iostream>
 #include <fstream>
@@ -26,6 +27,7 @@ int main() {
 
 
     dfs(adjacency_list, nodes_list, nodes);
+    recursivelyDfs(adjacency_list, nodes_list, nodes);
 
     for(auto node : nodes_list){
         delete node;

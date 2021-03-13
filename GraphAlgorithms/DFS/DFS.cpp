@@ -40,6 +40,7 @@ void dfs(vector<vector<Node*>> adjacency_list, vector<Node*> &node_list, int nod
                         Stack.push(successor);
                     }
                 }
+
                 current_node -> color = "black";
                 time++;
                 current_node  -> time_end = time;
@@ -49,4 +50,5 @@ void dfs(vector<vector<Node*>> adjacency_list, vector<Node*> &node_list, int nod
             }
         }
     }
+    cout << "\n";
 }

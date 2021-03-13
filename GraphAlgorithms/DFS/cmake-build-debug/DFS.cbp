@@ -100,6 +100,12 @@
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/DFS/main.cpp">
 			<Option target="DFS"/>
 		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/DFS/recursivelyDFS.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="D:/FacultyProjects/GraphAlgorithms/DFS/recursivelyDFS.h">
+			<Option target="DFS"/>
+		</Unit>
 		<Unit filename="D:/FacultyProjects/GraphAlgorithms/DFS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

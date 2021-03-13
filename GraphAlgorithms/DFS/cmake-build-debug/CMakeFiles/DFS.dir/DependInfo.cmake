@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/FacultyProjects/GraphAlgorithms/DFS/DFS.cpp" "D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/DFS.dir/DFS.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/DFS/adjacencyList.cpp" "D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/DFS.dir/adjacencyList.cpp.obj"
   "D:/FacultyProjects/GraphAlgorithms/DFS/main.cpp" "D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/DFS.dir/main.cpp.obj"
+  "D:/FacultyProjects/GraphAlgorithms/DFS/recursivelyDFS.cpp" "D:/FacultyProjects/GraphAlgorithms/DFS/cmake-build-debug/CMakeFiles/DFS.dir/recursivelyDFS.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

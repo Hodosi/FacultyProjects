@@ -13,4 +13,9 @@ CMakeFiles/DFS.dir/main.cpp.obj: ../DFS.h
 CMakeFiles/DFS.dir/main.cpp.obj: ../adjacencyList.h
 CMakeFiles/DFS.dir/main.cpp.obj: ../domain.h
 CMakeFiles/DFS.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/DFS.dir/main.cpp.obj: ../recursivelyDFS.h
+
+CMakeFiles/DFS.dir/recursivelyDFS.cpp.obj: ../domain.h
+CMakeFiles/DFS.dir/recursivelyDFS.cpp.obj: ../recursivelyDFS.cpp
+CMakeFiles/DFS.dir/recursivelyDFS.cpp.obj: ../recursivelyDFS.h
 

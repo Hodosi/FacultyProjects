@@ -223,6 +223,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFS.dir\build.make CMakeFiles/DFS.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+recursivelyDFS.obj: recursivelyDFS.cpp.obj
+
+.PHONY : recursivelyDFS.obj
+
+# target to build an object file
+recursivelyDFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFS.dir\build.make CMakeFiles/DFS.dir/recursivelyDFS.cpp.obj
+.PHONY : recursivelyDFS.cpp.obj
+
+recursivelyDFS.i: recursivelyDFS.cpp.i
+
+.PHONY : recursivelyDFS.i
+
+# target to preprocess a source file
+recursivelyDFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFS.dir\build.make CMakeFiles/DFS.dir/recursivelyDFS.cpp.i
+.PHONY : recursivelyDFS.cpp.i
+
+recursivelyDFS.s: recursivelyDFS.cpp.s
+
+.PHONY : recursivelyDFS.s
+
+# target to generate assembly for a file
+recursivelyDFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFS.dir\build.make CMakeFiles/DFS.dir/recursivelyDFS.cpp.s
+.PHONY : recursivelyDFS.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +268,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... recursivelyDFS.obj
+	@echo ... recursivelyDFS.i
+	@echo ... recursivelyDFS.s
 .PHONY : help
 
 
