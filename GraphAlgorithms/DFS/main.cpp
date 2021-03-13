@@ -24,7 +24,7 @@ int main() {
     fromFileToAdjacencyList(adjacency_list, nodes_list, nodes, fin);
     printAdjacencyList(adjacency_list, nodes);
 
-    
+
     dfs(adjacency_list, nodes_list, nodes);
 
     for(auto node : nodes_list){

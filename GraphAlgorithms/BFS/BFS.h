@@ -8,6 +8,6 @@
 #include "domain.h"
 #include <vector>
 
-void bfs(vector<vector<Node*>>, Node*, int);
+void bfs(vector<vector<Node*>>, Node*, vector<Node*> &, int);
 
 #endif //BFS_BFS_H

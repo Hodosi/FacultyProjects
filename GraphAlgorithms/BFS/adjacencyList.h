@@ -12,7 +12,7 @@
 
 using namespace std;
 
-void fromFileToAdjacencyList(vector<vector<Node*>> &, vector<Node*>, int, ifstream &);
+void fromFileToAdjacencyList(vector<vector<Node*>> &, vector<Node*> &, int, ifstream &);
 void printAdjacencyList(vector<vector<Node*>>, int);
 
 #endif //BFS_ADJACENCYLIST_H

@@ -6,14 +6,13 @@
 #include <iostream>
 #include <queue>
 
-void bfs(vector<vector<Node*>> adjacency_list, Node *source_node, int nodes){
-    int predecessor_id;
-    for(predecessor_id = 1; predecessor_id <= nodes; predecessor_id++){
-        for(auto successor : adjacency_list[predecessor_id]){
-            successor -> color = "white";
-            successor -> distance = INT16_MAX;
-            successor -> parent = -1;
-        }
+void bfs(vector<vector<Node*>> adjacency_list, Node *source_node, vector<Node*> &node_list, int nodes){
+
+    for(int i = 1; i <= nodes; i++) {
+        auto node = node_list[i];
+        node -> color = "white";
+        node -> distance = INT16_MAX;
+        node -> parent = -1;
     }
 
     source_node -> color = "grey";
