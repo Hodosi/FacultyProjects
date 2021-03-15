@@ -15,17 +15,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee524049-8acb-4fb8-9748-b899e5c514c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/Map/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/Map/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/Map/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/Map/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GraphAlgorithms/MooreAlgorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphAlgorithms/MooreAlgorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="ee524049-8acb-4fb8-9748-b899e5c514c8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
@@ -44,8 +41,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GraphAlgorithms/BFS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,11 +55,6 @@
   </component>
   <component name="RunManager">
     <configuration name="ImmobileAdministrator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImmobileAdministrator" TARGET_NAME="ImmobileAdministrator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImmobileAdministrator" RUN_TARGET_NAME="ImmobileAdministrator">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,6 +87,7 @@
       <workItem from="1615795028772" duration="161000" />
       <workItem from="1615809915396" duration="3426000" />
       <workItem from="1615821828565" duration="1773000" />
+      <workItem from="1615824289152" duration="2484000" />
     </task>
     <servers />
   </component>

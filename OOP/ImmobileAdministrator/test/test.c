@@ -107,6 +107,54 @@ void runRepositoryTests(){
     printf("End of repository tests...\n");
 }
 
+void crudTests(ServiceImmobile *service, int (*crud_operation)(ServiceImmobile*, int, double, char*)){
+    int number_of_apartment;
+    double cost;
+    char type[256];
+
+    //invalid number
+    number_of_apartment = -1;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(crud_operation(service, number_of_apartment, cost, type) != 0);
+
+    number_of_apartment = 2;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(crud_operation(service, number_of_apartment, cost, type) != 0);
+
+    //invalid type
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "");
+    assert(crud_operation(service, number_of_apartment, cost, type) != 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "yes sir");
+    assert(crud_operation(service, number_of_apartment, cost, type) != 0);
+
+    //valid type and number
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "water");
+    assert(crud_operation(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "sewer");
+    assert(crud_operation(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "heating");
+    assert(crud_operation(service, number_of_apartment, cost, type) == 0);
+
+    number_of_apartment = 1;
+    cost = 4.5;
+    strcpy(type, "gas");
+    assert(crud_operation(service, number_of_apartment, cost, type) == 0);
+}
 
 void runServiceCrudTests(){
     printf("Start of service tests...\n");
@@ -123,7 +171,7 @@ void runServiceCrudTests(){
     generateApartments(service, number_of_apartments);
 
     //get all apartments test
-    DynamicVector *vector = getAllApartments(repository);
+    DynamicVector *vector = getApartments(service);
     //DynamicStaticVector* vector = getApartments(service);
 
     assert(getApartmentNumber(vector->items[0]) == 0);
@@ -136,6 +184,7 @@ void runServiceCrudTests(){
     double cost_before, cost_after, new_cost;
     char type[256] = "gas";
 
+    //add expense test
     Apartment* apartment = getApartmentByNumber(repository, number_of_apartment);
     cost_before = getCostByType(apartment, type);
     addExpense(service, number_of_apartment, cost, type);
@@ -144,49 +193,7 @@ void runServiceCrudTests(){
     new_cost = cost_before + cost;
     assert(fabs(new_cost - cost_after) < 0.001);
 
-    //add expense test with invalid input
-    //invalid number
-    number_of_apartment = -1;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(addExpense(service, number_of_apartment, cost, type) != 0);
-
-    number_of_apartment = 2;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(addExpense(service, number_of_apartment, cost, type) != 0);
-
-    //invalid type
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "");
-    assert(addExpense(service, number_of_apartment, cost, type) != 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "yes sir");
-    assert(addExpense(service, number_of_apartment, cost, type) != 0);
-
-    //valid type and number
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(addExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "sewer");
-    assert(addExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "heating");
-    assert(addExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "gas");
-    assert(addExpense(service, number_of_apartment, cost, type) == 0);
+    crudTests(service, addExpense);
 
     /////////////////////////////////////////////////////////////////
     //modify expense
@@ -196,50 +203,7 @@ void runServiceCrudTests(){
 
     assert(fabs(cost - cost_after) < 0.001);
 
-    //add expense test with invalid input
-    //invalid number
-    number_of_apartment = -1;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
-
-    number_of_apartment = 2;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
-
-    //invalid type
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "");
-    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "yes sir");
-    assert(modifyExpense(service, number_of_apartment, cost, type) != 0);
-
-    //valid type and number
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "water");
-    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "sewer");
-    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "heating");
-    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
-
-    number_of_apartment = 1;
-    cost = 4.5;
-    strcpy(type, "gas");
-    assert(modifyExpense(service, number_of_apartment, cost, type) == 0);
-
+    crudTests(service, modifyExpense);
 
     /////////////////////////////////////////////////////////////////
     //delete expense
@@ -247,6 +211,7 @@ void runServiceCrudTests(){
     cost_after = getCostByType(apartment, type);
 
     assert(fabs(0.0 - cost_after) < 0.001);
+
 
     //add expense test with invalid input
     //invalid number
