@@ -1,3 +1,0 @@
-D:/FacultyProjects/ImmobileAdministrator/cmake-build-wsl_profile/CMakeFiles/ImmobileAdministrator.dir
-D:/FacultyProjects/ImmobileAdministrator/cmake-build-wsl_profile/CMakeFiles/edit_cache.dir
-D:/FacultyProjects/ImmobileAdministrator/cmake-build-wsl_profile/CMakeFiles/rebuild_cache.dir

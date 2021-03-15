@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\FacultyProjects\ImmobileAdministrator
+CMAKE_SOURCE_DIR = D:\FacultyProjects\OOP\ImmobileAdministrator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug
+CMAKE_BINARY_DIR = D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ImmobileAdministrator.dir/depend.make
@@ -78,133 +78,133 @@ include CMakeFiles/ImmobileAdministrator.dir/flags.make
 
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\main.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ImmobileAdministrator.dir/main.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\main.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\main.c
 
 CMakeFiles/ImmobileAdministrator.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/main.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\main.c > CMakeFiles\ImmobileAdministrator.dir\main.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\main.c > CMakeFiles\ImmobileAdministrator.dir\main.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/main.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\main.c -o CMakeFiles\ImmobileAdministrator.dir\main.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\main.c -o CMakeFiles\ImmobileAdministrator.dir\main.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj: ../presentation/userInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\presentation\userInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\presentation\userInterface.c
 
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\presentation\userInterface.c > CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\presentation\userInterface.c > CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/presentation/userInterface.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\presentation\userInterface.c -o CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\presentation\userInterface.c -o CMakeFiles\ImmobileAdministrator.dir\presentation\userInterface.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj: ../business/service.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\business\service.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\business\service.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ImmobileAdministrator.dir/business/service.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\business\service.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\business\service.c
 
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/business/service.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\business\service.c > CMakeFiles\ImmobileAdministrator.dir\business\service.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\business\service.c > CMakeFiles\ImmobileAdministrator.dir\business\service.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/business/service.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/business/service.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\business\service.c -o CMakeFiles\ImmobileAdministrator.dir\business\service.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\business\service.c -o CMakeFiles\ImmobileAdministrator.dir\business\service.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj: ../persistence/repository.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\persistence\repository.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\repository.c
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\persistence\repository.c > CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\repository.c > CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/persistence/repository.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\persistence\repository.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\repository.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\repository.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj: ../validation/validator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\validation\validator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\validation\validator.c
 
 CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\validation\validator.c > CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\validation\validator.c > CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/validation/validator.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\validation\validator.c -o CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\validation\validator.c -o CMakeFiles\ImmobileAdministrator.dir\validation\validator.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj: ../test/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\test\test.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\test\test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ImmobileAdministrator.dir/test/test.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\test\test.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\test\test.c
 
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/test/test.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\test\test.c > CMakeFiles\ImmobileAdministrator.dir\test\test.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\test\test.c > CMakeFiles\ImmobileAdministrator.dir\test\test.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/test/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/test/test.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\test\test.c -o CMakeFiles\ImmobileAdministrator.dir\test\test.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\test\test.c -o CMakeFiles\ImmobileAdministrator.dir\test\test.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj: ../domain/expense.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\domain\expense.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\domain\expense.c
 
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\domain\expense.c > CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\domain\expense.c > CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/domain/expense.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\domain\expense.c -o CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\domain\expense.c -o CMakeFiles\ImmobileAdministrator.dir\domain\expense.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj: ../domain/apartment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\domain\apartment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\domain\apartment.c
 
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\domain\apartment.c > CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\domain\apartment.c > CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/domain/apartment.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\domain\apartment.c -o CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\domain\apartment.c -o CMakeFiles\ImmobileAdministrator.dir\domain\apartment.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj: ../persistence/dynamicVector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicVector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicVector.c
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicVector.c > CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicVector.c > CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicVector.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicVector.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicVector.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicVector.c.s
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.obj: CMakeFiles/ImmobileAdministrator.dir/flags.make
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.obj: ../persistence/dynamicStaticVector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.obj   -c D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicStaticVector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.obj   -c D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicStaticVector.c
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicStaticVector.c > CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicStaticVector.c > CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.i
 
 CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ImmobileAdministrator.dir/persistence/dynamicStaticVector.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\ImmobileAdministrator\persistence\dynamicStaticVector.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\FacultyProjects\OOP\ImmobileAdministrator\persistence\dynamicStaticVector.c -o CMakeFiles\ImmobileAdministrator.dir\persistence\dynamicStaticVector.c.s
 
 # Object files for target ImmobileAdministrator
 ImmobileAdministrator_OBJECTS = \
@@ -236,7 +236,7 @@ ImmobileAdministrator.exe: CMakeFiles/ImmobileAdministrator.dir/build.make
 ImmobileAdministrator.exe: CMakeFiles/ImmobileAdministrator.dir/linklibs.rsp
 ImmobileAdministrator.exe: CMakeFiles/ImmobileAdministrator.dir/objects1.rsp
 ImmobileAdministrator.exe: CMakeFiles/ImmobileAdministrator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable ImmobileAdministrator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable ImmobileAdministrator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ImmobileAdministrator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/ImmobileAdministrator.dir/clean:
 .PHONY : CMakeFiles/ImmobileAdministrator.dir/clean
 
 CMakeFiles/ImmobileAdministrator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\FacultyProjects\ImmobileAdministrator D:\FacultyProjects\ImmobileAdministrator D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles\ImmobileAdministrator.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\FacultyProjects\OOP\ImmobileAdministrator D:\FacultyProjects\OOP\ImmobileAdministrator D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles\ImmobileAdministrator.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ImmobileAdministrator.dir/depend
 

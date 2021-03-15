@@ -201,6 +201,9 @@ int viewExpensesByPropertyUI(UserInterfaceImmobile *ui){
     }
     printf("\n");
 
+    for(int i =0; i < vector -> length; i++){
+        destroyApartment(vector -> items[i]);
+    }
     destroyDynamicVector(vector);
     //destroyDynamicStaticVector(vector);
 
@@ -237,6 +240,9 @@ int viewExpensesOrderedUI(UserInterfaceImmobile *ui){
     }
     printf("\n");
 
+    for(int i =0; i < vector -> length; i++){
+        destroyApartment(vector -> items[i]);
+    }
     destroyDynamicVector(vector);
     //destroyDynamicStaticVector(vector);
 

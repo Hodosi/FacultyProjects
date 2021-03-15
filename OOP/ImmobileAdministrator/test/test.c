@@ -348,6 +348,9 @@ void runServiceFiltrationAndSortingTests(){
     cost = 5.1;
     assert(fabs(test_cost - cost) < 0.0001);
 
+    for(int i =0; i < vector_filtration -> length; i++){
+        destroyApartment(vector_filtration -> items[i]);
+    }
     destroyDynamicVector(vector_filtration);
     //destroyDynamicStaticVector(vector_filtration);
 
@@ -374,6 +377,9 @@ void runServiceFiltrationAndSortingTests(){
     test_cost = getCostByType(apartment_sorting, "gas");
     assert(fabs(test_cost - cost) < 0.0001);
 
+    for(int i =0; i < vector_sorting -> length; i++){
+        destroyApartment(vector_sorting -> items[i]);
+    }
     destroyDynamicVector(vector_sorting);
     //destroyDynamicStaticVector(vector_sorting);
 

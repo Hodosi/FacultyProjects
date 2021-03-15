@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\FacultyProjects\ImmobileAdministrator
+CMAKE_SOURCE_DIR = D:\FacultyProjects\OOP\ImmobileAdministrator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug
+CMAKE_BINARY_DIR = D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\ImmobileAdministrator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\FacultyProjects\OOP\ImmobileAdministrator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

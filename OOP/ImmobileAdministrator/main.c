@@ -1,9 +1,11 @@
 #include "presentation/userInterface.h"
 
 #include "test/test.h"
+//#define _CRTDBG_MAP_ALLOC
 
 int main() {
     runAllTests();
+
 
     RepositoryImmobile *repository_immobile = createRepository();
     ServiceImmobile *service_immobile = createService(repository_immobile);
@@ -13,5 +15,7 @@ int main() {
 
     destroyUserInterface(ui_immobile);
 
+
+    //_CrtDumpMemoryLeaks();
     return 0;
 }
